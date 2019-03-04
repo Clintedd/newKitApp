@@ -1,10 +1,5 @@
 @import 'components/setup';
 @import 'components/utils';
-@font-face{
-    font-family: 'frunch';
-    src: url(../../assets/Frunch.ttf);
-    // src: url(http://www.clintdevs.live/kitchenia/assets/Frunch.ttf) format(truetype);
-}
 
 // Global Settings
 
@@ -58,7 +53,7 @@ li {
     display: flex;
 
     h1 {
-        font-family: 'frunch', cursive;
+        font-family: 'Leckerli One', cursive;
         font-size: 5rem;
         text-align: center;
         color: white;
@@ -91,7 +86,7 @@ li {
     h2 {
         position: absolute;
         left: 50%;
-        font-family: 'frunch', cursive;
+        font-family: 'Leckerli One', cursive;
         font-size: 3rem;
         color: #fff;
         text-shadow: #106466 1px 0 10px;
@@ -112,7 +107,7 @@ input[type=radio] {
 }
 
 input[type=search] {
-    font-family: 'frunch', cursive;
+    font-family: 'Leckerli One', cursive;
     text-transform: capitalize;
     width: 50%;
     // height: 50px;
@@ -137,7 +132,7 @@ input[type=submit] {
     margin: 20px auto;
     padding: 10px 20px;
     @include custardShape();    
-    font-family: 'frunch', cursive;
+    font-family: 'Leckerli One', cursive;
     
 }
 
@@ -148,7 +143,7 @@ input[type=submit] {
 
 header {
     height: 96vh;
-    background-image: url(../../assets/background6.jpg);
+    background-image: url(../assets/background6.jpg);
     background-size: cover;
     background-position: center;
     box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
@@ -245,7 +240,7 @@ form {
     justify-content: start;
     flex-wrap: wrap;
     font-size: 3rem;
-    font-family: 'frunch', cursive;
+    font-family: 'Leckerli One', cursive;
     margin: 0;
     padding: 5px 10px;
     // @include custardShape();

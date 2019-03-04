@@ -231,42 +231,14 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   1% {
     color: #7F7F7F;
     border: 5px solid white;
-    -webkit-box-shadow: inset 0 0 100px #fff,
- inset 20px 0 80px #f0f,
- inset -20px 0 80px #0ff,
- inset 20px 0 300px #f0f,
- inset -20px 0 300px #0ff,
- 0 0 50px #fff,
- -10px 0 80px #f0f,
- 10px 0 80px #0ff;
-            box-shadow: inset 0 0 100px #fff,
- inset 20px 0 80px #f0f,
- inset -20px 0 80px #0ff,
- inset 20px 0 300px #f0f,
- inset -20px 0 300px #0ff,
- 0 0 50px #fff,
- -10px 0 80px #f0f,
- 10px 0 80px #0ff;
+    -webkit-box-shadow: inset 0 0 100px #fff, inset 20px 0 80px #f0f, inset -20px 0 80px #0ff, inset 20px 0 300px #f0f, inset -20px 0 300px #0ff, 0 0 50px #fff, -10px 0 80px #f0f, 10px 0 80px #0ff;
+            box-shadow: inset 0 0 100px #fff, inset 20px 0 80px #f0f, inset -20px 0 80px #0ff, inset 20px 0 300px #f0f, inset -20px 0 300px #0ff, 0 0 50px #fff, -10px 0 80px #f0f, 10px 0 80px #0ff;
   }
   5% {
     color: #7F7F7F;
     border: 5px solid white;
-    -webkit-box-shadow: inset 0 0 100px #fff,
- inset 20px 0 80px #f0f,
- inset -20px 0 80px #0ff,
- inset 20px 0 300px #f0f,
- inset -20px 0 300px #0ff,
- 0 0 50px #fff,
- -10px 0 80px #f0f,
- 10px 0 80px #0ff;
-            box-shadow: inset 0 0 100px #fff,
- inset 20px 0 80px #f0f,
- inset -20px 0 80px #0ff,
- inset 20px 0 300px #f0f,
- inset -20px 0 300px #0ff,
- 0 0 50px #fff,
- -10px 0 80px #f0f,
- 10px 0 80px #0ff;
+    -webkit-box-shadow: inset 0 0 100px #fff, inset 20px 0 80px #f0f, inset -20px 0 80px #0ff, inset 20px 0 300px #f0f, inset -20px 0 300px #0ff, 0 0 50px #fff, -10px 0 80px #f0f, 10px 0 80px #0ff;
+            box-shadow: inset 0 0 100px #fff, inset 20px 0 80px #f0f, inset -20px 0 80px #0ff, inset 20px 0 300px #f0f, inset -20px 0 300px #0ff, 0 0 50px #fff, -10px 0 80px #f0f, 10px 0 80px #0ff;
   }
   6% {
     color: #7F7F7F;
@@ -283,22 +255,8 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   25% {
     color: white;
     border: 5px solid white;
-    -webkit-box-shadow: inset 0 0 100px #fff,
- inset 20px 0 80px #f0f,
- inset -20px 0 80px #0ff,
- inset 20px 0 300px #f0f,
- inset -20px 0 300px #0ff,
- 0 0 50px #fff,
- -10px 0 80px #f0f,
- 10px 0 80px #0ff;
-            box-shadow: inset 0 0 100px #fff,
- inset 20px 0 80px #f0f,
- inset -20px 0 80px #0ff,
- inset 20px 0 300px #f0f,
- inset -20px 0 300px #0ff,
- 0 0 50px #fff,
- -10px 0 80px #f0f,
- 10px 0 80px #0ff;
+    -webkit-box-shadow: inset 0 0 100px #fff, inset 20px 0 80px #f0f, inset -20px 0 80px #0ff, inset 20px 0 300px #f0f, inset -20px 0 300px #0ff, 0 0 50px #fff, -10px 0 80px #f0f, 10px 0 80px #0ff;
+            box-shadow: inset 0 0 100px #fff, inset 20px 0 80px #f0f, inset -20px 0 80px #0ff, inset 20px 0 300px #f0f, inset -20px 0 300px #0ff, 0 0 50px #fff, -10px 0 80px #f0f, 10px 0 80px #0ff;
   }
   26% {
     color: #7F7F7F;
@@ -309,22 +267,8 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   27% {
     color: white;
     border: 5px solid white;
-    -webkit-box-shadow: inset 0 0 100px #fff,
- inset 20px 0 80px #f0f,
- inset -20px 0 80px #0ff,
- inset 20px 0 300px #f0f,
- inset -20px 0 300px #0ff,
- 0 0 50px #fff,
- -10px 0 80px #f0f,
- 10px 0 80px #0ff;
-            box-shadow: inset 0 0 100px #fff,
- inset 20px 0 80px #f0f,
- inset -20px 0 80px #0ff,
- inset 20px 0 300px #f0f,
- inset -20px 0 300px #0ff,
- 0 0 50px #fff,
- -10px 0 80px #f0f,
- 10px 0 80px #0ff;
+    -webkit-box-shadow: inset 0 0 100px #fff, inset 20px 0 80px #f0f, inset -20px 0 80px #0ff, inset 20px 0 300px #f0f, inset -20px 0 300px #0ff, 0 0 50px #fff, -10px 0 80px #f0f, 10px 0 80px #0ff;
+            box-shadow: inset 0 0 100px #fff, inset 20px 0 80px #f0f, inset -20px 0 80px #0ff, inset 20px 0 300px #f0f, inset -20px 0 300px #0ff, 0 0 50px #fff, -10px 0 80px #f0f, 10px 0 80px #0ff;
   }
   55% {
     color: white;
@@ -368,42 +312,14 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   1% {
     color: #7F7F7F;
     border: 5px solid white;
-    -webkit-box-shadow: inset 0 0 100px #fff,
- inset 20px 0 80px #f0f,
- inset -20px 0 80px #0ff,
- inset 20px 0 300px #f0f,
- inset -20px 0 300px #0ff,
- 0 0 50px #fff,
- -10px 0 80px #f0f,
- 10px 0 80px #0ff;
-            box-shadow: inset 0 0 100px #fff,
- inset 20px 0 80px #f0f,
- inset -20px 0 80px #0ff,
- inset 20px 0 300px #f0f,
- inset -20px 0 300px #0ff,
- 0 0 50px #fff,
- -10px 0 80px #f0f,
- 10px 0 80px #0ff;
+    -webkit-box-shadow: inset 0 0 100px #fff, inset 20px 0 80px #f0f, inset -20px 0 80px #0ff, inset 20px 0 300px #f0f, inset -20px 0 300px #0ff, 0 0 50px #fff, -10px 0 80px #f0f, 10px 0 80px #0ff;
+            box-shadow: inset 0 0 100px #fff, inset 20px 0 80px #f0f, inset -20px 0 80px #0ff, inset 20px 0 300px #f0f, inset -20px 0 300px #0ff, 0 0 50px #fff, -10px 0 80px #f0f, 10px 0 80px #0ff;
   }
   5% {
     color: #7F7F7F;
     border: 5px solid white;
-    -webkit-box-shadow: inset 0 0 100px #fff,
- inset 20px 0 80px #f0f,
- inset -20px 0 80px #0ff,
- inset 20px 0 300px #f0f,
- inset -20px 0 300px #0ff,
- 0 0 50px #fff,
- -10px 0 80px #f0f,
- 10px 0 80px #0ff;
-            box-shadow: inset 0 0 100px #fff,
- inset 20px 0 80px #f0f,
- inset -20px 0 80px #0ff,
- inset 20px 0 300px #f0f,
- inset -20px 0 300px #0ff,
- 0 0 50px #fff,
- -10px 0 80px #f0f,
- 10px 0 80px #0ff;
+    -webkit-box-shadow: inset 0 0 100px #fff, inset 20px 0 80px #f0f, inset -20px 0 80px #0ff, inset 20px 0 300px #f0f, inset -20px 0 300px #0ff, 0 0 50px #fff, -10px 0 80px #f0f, 10px 0 80px #0ff;
+            box-shadow: inset 0 0 100px #fff, inset 20px 0 80px #f0f, inset -20px 0 80px #0ff, inset 20px 0 300px #f0f, inset -20px 0 300px #0ff, 0 0 50px #fff, -10px 0 80px #f0f, 10px 0 80px #0ff;
   }
   6% {
     color: #7F7F7F;
@@ -420,22 +336,8 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   25% {
     color: white;
     border: 5px solid white;
-    -webkit-box-shadow: inset 0 0 100px #fff,
- inset 20px 0 80px #f0f,
- inset -20px 0 80px #0ff,
- inset 20px 0 300px #f0f,
- inset -20px 0 300px #0ff,
- 0 0 50px #fff,
- -10px 0 80px #f0f,
- 10px 0 80px #0ff;
-            box-shadow: inset 0 0 100px #fff,
- inset 20px 0 80px #f0f,
- inset -20px 0 80px #0ff,
- inset 20px 0 300px #f0f,
- inset -20px 0 300px #0ff,
- 0 0 50px #fff,
- -10px 0 80px #f0f,
- 10px 0 80px #0ff;
+    -webkit-box-shadow: inset 0 0 100px #fff, inset 20px 0 80px #f0f, inset -20px 0 80px #0ff, inset 20px 0 300px #f0f, inset -20px 0 300px #0ff, 0 0 50px #fff, -10px 0 80px #f0f, 10px 0 80px #0ff;
+            box-shadow: inset 0 0 100px #fff, inset 20px 0 80px #f0f, inset -20px 0 80px #0ff, inset 20px 0 300px #f0f, inset -20px 0 300px #0ff, 0 0 50px #fff, -10px 0 80px #f0f, 10px 0 80px #0ff;
   }
   26% {
     color: #7F7F7F;
@@ -446,22 +348,8 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   27% {
     color: white;
     border: 5px solid white;
-    -webkit-box-shadow: inset 0 0 100px #fff,
- inset 20px 0 80px #f0f,
- inset -20px 0 80px #0ff,
- inset 20px 0 300px #f0f,
- inset -20px 0 300px #0ff,
- 0 0 50px #fff,
- -10px 0 80px #f0f,
- 10px 0 80px #0ff;
-            box-shadow: inset 0 0 100px #fff,
- inset 20px 0 80px #f0f,
- inset -20px 0 80px #0ff,
- inset 20px 0 300px #f0f,
- inset -20px 0 300px #0ff,
- 0 0 50px #fff,
- -10px 0 80px #f0f,
- 10px 0 80px #0ff;
+    -webkit-box-shadow: inset 0 0 100px #fff, inset 20px 0 80px #f0f, inset -20px 0 80px #0ff, inset 20px 0 300px #f0f, inset -20px 0 300px #0ff, 0 0 50px #fff, -10px 0 80px #f0f, 10px 0 80px #0ff;
+            box-shadow: inset 0 0 100px #fff, inset 20px 0 80px #f0f, inset -20px 0 80px #0ff, inset 20px 0 300px #f0f, inset -20px 0 300px #0ff, 0 0 50px #fff, -10px 0 80px #f0f, 10px 0 80px #0ff;
   }
   55% {
     color: white;
@@ -497,75 +385,70 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   }
 }
 
-@font-face {
-  font-family: 'frunch';
-  src: u../assets/Frunch.ttf);
-}
-
-/* line 11, src/sass/main.scss */
+/* line 6, src/sass/main.scss */
 html {
   font-family: 'Merriweather', sans-serif;
   font-size: 62.5%;
 }
 
 @media (max-width: 1000px) {
-  /* line 11, src/sass/main.scss */
+  /* line 6, src/sass/main.scss */
   html {
     font-size: 50%;
   }
 }
 
 @media (max-width: 700px) {
-  /* line 11, src/sass/main.scss */
+  /* line 6, src/sass/main.scss */
   html {
     font-size: 40%;
   }
 }
 
-/* line 25, src/sass/main.scss */
+/* line 20, src/sass/main.scss */
 img {
   max-width: 100%;
 }
 
-/* line 29, src/sass/main.scss */
+/* line 24, src/sass/main.scss */
 li {
   list-style: none;
 }
 
-/* line 33, src/sass/main.scss */
+/* line 28, src/sass/main.scss */
 .wrapper {
   width: 90%;
   margin: 0 auto;
 }
 
 @media (max-width: 900px) {
-  /* line 33, src/sass/main.scss */
+  /* line 28, src/sass/main.scss */
   .wrapper {
     width: 95%;
   }
 }
 
-/* line 42, src/sass/main.scss */
+/* line 37, src/sass/main.scss */
 .header-wrapper {
   width: 60%;
   margin: 0 auto;
 }
 
 @media (max-width: 1600px) {
-  /* line 42, src/sass/main.scss */
+  /* line 37, src/sass/main.scss */
   .header-wrapper {
     width: 80%;
   }
 }
 
 @media (max-width: 750px) {
-  /* line 42, src/sass/main.scss */
+  /* line 37, src/sass/main.scss */
   .header-wrapper {
     width: 90%;
   }
 }
 
-/* line 56, src/sass/main.scss */
+/* line 51, src/sass/main.scss */
 .logo {
   margin: 3rem 0;
   display: -webkit-box;
@@ -573,9 +456,9 @@ li {
   display: flex;
 }
 
-/* line 60, src/sass/main.scss */
+/* line 55, src/sass/main.scss */
 .logo h1 {
-  font-family: 'frunch', cursive;
+  font-family: 'Leckerli One', cursive;
   font-size: 5rem;
   text-align: center;
   color: white;
@@ -585,28 +468,14 @@ li {
   border: 10px solid white;
   border-radius: 15px;
   background-color: rgba(0, 0, 0, 0.8);
-  -webkit-box-shadow: inset 0 0 100px #fff,
- inset 20px 0 80px #f0f,
- inset -20px 0 80px #0ff,
- inset 20px 0 300px #f0f,
- inset -20px 0 300px #0ff,
- 0 0 50px #fff,
- -10px 0 80px #f0f,
- 10px 0 80px #0ff;
-          box-shadow: inset 0 0 100px #fff,
- inset 20px 0 80px #f0f,
- inset -20px 0 80px #0ff,
- inset 20px 0 300px #f0f,
- inset -20px 0 300px #0ff,
- 0 0 50px #fff,
- -10px 0 80px #f0f,
- 10px 0 80px #0ff;
+  -webkit-box-shadow: inset 0 0 100px #fff, inset 20px 0 80px #f0f, inset -20px 0 80px #0ff, inset 20px 0 300px #f0f, inset -20px 0 300px #0ff, 0 0 50px #fff, -10px 0 80px #f0f, 10px 0 80px #0ff;
+          box-shadow: inset 0 0 100px #fff, inset 20px 0 80px #f0f, inset -20px 0 80px #0ff, inset 20px 0 300px #f0f, inset -20px 0 300px #0ff, 0 0 50px #fff, -10px 0 80px #f0f, 10px 0 80px #0ff;
   -webkit-animation: blink 5s infinite;
           animation: blink 5s infinite;
 }
 
 @media (max-width: 1350px) {
-  /* line 60, src/sass/main.scss */
+  /* line 55, src/sass/main.scss */
   .logo h1 {
     padding: 10px 30px;
     font-size: 4rem;
@@ -614,17 +483,17 @@ li {
   }
 }
 
-/* line 89, src/sass/main.scss */
+/* line 84, src/sass/main.scss */
 .titles {
   -ms-flex-item-align: center;
       align-self: center;
 }
 
-/* line 91, src/sass/main.scss */
+/* line 86, src/sass/main.scss */
 .titles h2 {
   position: absolute;
   left: 50%;
-  font-family: 'frunch', cursive;
+  font-family: 'Leckerli One', cursive;
   font-size: 3rem;
   color: #fff;
   text-shadow: #106466 1px 0 10px;
@@ -633,13 +502,13 @@ li {
           transform: translate(-50%, -50%);
 }
 
-/* line 104, src/sass/main.scss */
+/* line 99, src/sass/main.scss */
 input[type=checkbox],
 input[type=radio] {
   display: none;
 }
 
-/* line 109, src/sass/main.scss */
+/* line 104, src/sass/main.scss */
 .search-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -649,9 +518,9 @@ input[type=radio] {
           justify-content: stretch;
 }
 
-/* line 114, src/sass/main.scss */
+/* line 109, src/sass/main.scss */
 input[type=search] {
-  font-family: 'frunch', cursive;
+  font-family: 'Leckerli One', cursive;
   text-transform: capitalize;
   width: 50%;
   font-size: 2rem;
@@ -665,7 +534,7 @@ input[type=search] {
   display: block;
 }
 
-/* line 128, src/sass/main.scss */
+/* line 123, src/sass/main.scss */
 input[type=search]::-webkit-input-placeholder {
   color: #EFA253;
   text-shadow: 2px 2px 0px  #fff, -2px -2px 0px  #fff, 2px -2px 0px  #fff, -2px 2px 0px  #fff;
@@ -683,7 +552,7 @@ input[type=search]::placeholder {
   text-shadow: 2px 2px 0px  #fff, -2px -2px 0px  #fff, 2px -2px 0px  #fff, -2px 2px 0px  #fff;
 }
 
-/* line 133, src/sass/main.scss */
+/* line 128, src/sass/main.scss */
 input[type=submit] {
   font-size: 2rem;
   display: block;
@@ -694,15 +563,15 @@ input[type=submit] {
   border-radius: 15px;
   color: #EFA253;
   text-shadow: 2px 2px 0px  #fff, -2px -2px 0px  #fff, 2px -2px 0px  #fff, -2px 2px 0px  #fff;
-  font-family: 'frunch', cursive;
+  font-family: 'Leckerli One', cursive;
 }
 
-/* line 144, src/sass/main.scss */
+/* line 139, src/sass/main.scss */
 .height {
   height: auto;
 }
 
-/* line 149, src/sass/main.scss */
+/* line 144, src/sass/main.scss */
 header {
   height: 96vh;
   background-image: url(../assets/background6.jpg);
@@ -717,20 +586,20 @@ header {
 }
 
 @media (max-width: 350px) {
-  /* line 149, src/sass/main.scss */
+  /* line 144, src/sass/main.scss */
   header {
     height: auto;
   }
 }
 
-/* line 164, src/sass/main.scss */
+/* line 159, src/sass/main.scss */
 .active {
   background-color: #D2E9E3;
   border: 3px solid white;
   color: black;
 }
 
-/* line 170, src/sass/main.scss */
+/* line 165, src/sass/main.scss */
 label {
   font-size: 1.3rem;
   padding: 0.3em 0.5em;
@@ -741,19 +610,19 @@ label {
   cursor: pointer;
 }
 
-/* line 180, src/sass/main.scss */
+/* line 175, src/sass/main.scss */
 label:hover {
   background-color: #D2E9E3;
   border: 3px solid white;
   color: black;
 }
 
-/* line 186, src/sass/main.scss */
+/* line 181, src/sass/main.scss */
 label[for=search] {
   display: none;
 }
 
-/* line 190, src/sass/main.scss */
+/* line 185, src/sass/main.scss */
 form {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -764,7 +633,7 @@ form {
           flex-flow: column;
 }
 
-/* line 197, src/sass/main.scss */
+/* line 192, src/sass/main.scss */
 .flex-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -782,19 +651,19 @@ form {
 }
 
 @media (max-width: 1000px) {
-  /* line 197, src/sass/main.scss */
+  /* line 192, src/sass/main.scss */
   .flex-wrapper {
     padding-top: 20px;
   }
 }
 
-/* line 213, src/sass/main.scss */
+/* line 208, src/sass/main.scss */
 .flex-all {
   width: 100%;
   position: relative;
 }
 
-/* line 220, src/sass/main.scss */
+/* line 215, src/sass/main.scss */
 .allergies, .diets, .duration {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -812,20 +681,20 @@ form {
 }
 
 @media (max-width: 1600px) {
-  /* line 220, src/sass/main.scss */
+  /* line 215, src/sass/main.scss */
   .allergies, .diets, .duration {
     width: 90%;
   }
 }
 
 @media (max-width: 750px) {
-  /* line 220, src/sass/main.scss */
+  /* line 215, src/sass/main.scss */
   .allergies, .diets, .duration {
     width: 100%;
   }
 }
 
-/* line 241, src/sass/main.scss */
+/* line 236, src/sass/main.scss */
 .searched-ingredient {
   text-transform: capitalize;
   display: none;
@@ -837,7 +706,7 @@ form {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   font-size: 3rem;
-  font-family: 'frunch', cursive;
+  font-family: 'Leckerli One', cursive;
   margin: 0;
   padding: 5px 10px;
   border: 6px double #ff84a1;
@@ -847,7 +716,7 @@ form {
   text-shadow: 2px 2px 0px  #fff, -2px -2px 0px  #fff, 2px -2px 0px  #fff, -2px 2px 0px  #fff;
 }
 
-/* line 256, src/sass/main.scss */
+/* line 251, src/sass/main.scss */
 .searched-each {
   cursor: pointer;
   margin: 0 10px;
@@ -859,7 +728,7 @@ form {
           align-items: flex-end;
 }
 
-/* line 263, src/sass/main.scss */
+/* line 258, src/sass/main.scss */
 .recipe {
   background: #D2E9E3;
   background-size: cover;
@@ -868,7 +737,7 @@ form {
   margin: 0;
 }
 
-/* line 271, src/sass/main.scss */
+/* line 266, src/sass/main.scss */
 .recipe-wrapper {
   width: 90%;
   margin: 0 auto;
@@ -876,7 +745,7 @@ form {
   padding: 40px 0;
 }
 
-/* line 287, src/sass/main.scss */
+/* line 282, src/sass/main.scss */
 .recipes {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -885,7 +754,7 @@ form {
       flex-wrap: wrap;
 }
 
-/* line 292, src/sass/main.scss */
+/* line 287, src/sass/main.scss */
 .recipe-item {
   background-color: #F7F9FB;
   -webkit-box-flex: 1;
@@ -906,20 +775,20 @@ form {
 }
 
 @media (max-width: 1350px) {
-  /* line 292, src/sass/main.scss */
+  /* line 287, src/sass/main.scss */
   .recipe-item {
     width: 25%;
   }
 }
 
 @media (max-width: 300px) {
-  /* line 292, src/sass/main.scss */
+  /* line 287, src/sass/main.scss */
   .recipe-item {
     width: 90%;
   }
 }
 
-/* line 315, src/sass/main.scss */
+/* line 310, src/sass/main.scss */
 .recipe-title {
   text-align: center;
   margin: 10px 0;
@@ -943,7 +812,7 @@ form {
   z-index: 100;
 }
 
-/* line 333, src/sass/main.scss */
+/* line 328, src/sass/main.scss */
 .recipe-unique {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(222, 207, 152, 0.8)), to(rgba(222, 207, 152, 0.9)));
   background: linear-gradient(to bottom, rgba(222, 207, 152, 0.8), rgba(222, 207, 152, 0.9));
@@ -955,7 +824,7 @@ form {
   color: #941B35;
 }
 
-/* line 344, src/sass/main.scss */
+/* line 339, src/sass/main.scss */
 .recipe-img {
   -o-object-fit: cover;
      object-fit: cover;
@@ -967,13 +836,13 @@ form {
   display: block;
 }
 
-/* line 354, src/sass/main.scss */
+/* line 349, src/sass/main.scss */
 .recipe-img:hover {
   -webkit-box-shadow: 0 0 1rem rgba(0, 0, 0, 0.6);
           box-shadow: 0 0 1rem rgba(0, 0, 0, 0.6);
 }
 
-/* line 358, src/sass/main.scss */
+/* line 353, src/sass/main.scss */
 .ing-dur {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -983,7 +852,7 @@ form {
           justify-content: space-between;
 }
 
-/* line 363, src/sass/main.scss */
+/* line 358, src/sass/main.scss */
 .duration-each {
   font-size: 1.2rem;
   margin: 10px;
@@ -993,7 +862,7 @@ form {
   font-weight: 400;
 }
 
-/* line 372, src/sass/main.scss */
+/* line 367, src/sass/main.scss */
 .ingredients-title {
   font-size: 1.2rem;
   margin: 10px;
@@ -1005,13 +874,13 @@ form {
   cursor: pointer;
 }
 
-/* line 385, src/sass/main.scss */
+/* line 380, src/sass/main.scss */
 .ingredients-title:hover {
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
 }
 
-/* line 389, src/sass/main.scss */
+/* line 384, src/sass/main.scss */
 .ingredients-ul {
   padding: 100px 20px 0;
   margin: 0;
@@ -1024,7 +893,7 @@ form {
   cursor: pointer;
 }
 
-/* line 403, src/sass/main.scss */
+/* line 398, src/sass/main.scss */
 .ingredients-each {
   font-size: 1.6rem;
   border: 1px solid black;
@@ -1033,13 +902,13 @@ form {
   display: inline-block;
 }
 
-/* line 475, src/sass/main.scss */
+/* line 470, src/sass/main.scss */
 footer {
   background-color: lightslategray;
   height: 4vh;
 }
 
-/* line 480, src/sass/main.scss */
+/* line 475, src/sass/main.scss */
 footer .wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1057,7 +926,7 @@ footer .wrapper {
   height: 100%;
 }
 
-/* line 488, src/sass/main.scss */
+/* line 483, src/sass/main.scss */
 footer p {
   font-size: 1.6rem;
   margin: 0;
