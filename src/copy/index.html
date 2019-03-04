@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Kitchenia</title>
+	<link href="https://fonts.googleapis.com/css?family=Merriweather|The+Girl+Next+Door" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+	<header>
+		<div class="header-wrapper">
+			<div class="logo">
+				<!-- <img src="assets/title.png" alt=""> -->
+				<h1>Kitchenia</h1>
+			</div>
+			<div class="form">
+				<form action="" id="form-search-main">
+					<div class="search-wrapper">
+						<label for="search"></label>
+						<input id="search" type="search" placeholder="Search recipe by ingredients" name="ingredient" onfocus="this.placeholder = ''"
+						 onblur="this.placeholder = `Search recipe by ingredients`" required>
+					</div>
+					<div class="flex-wrapper">
+						<div class="flex-allergies flex-all">
+							<div class="allergies-title titles">
+								<h2>Allergy</h2>
+							</div>
+							<div class="allergies">
+								<label for="dairy">Dairy Free</label>
+								<input id="dairy" type="checkbox" name="allergy" value="396^Dairy-Free">
+								<label for="egg">Egg Free</label>
+								<input id="egg" type="checkbox" name="allergy" value="397^Egg-Free">
+								<label for="gluten">Gluten Free</label>
+								<input id="gluten" type="checkbox" name="allergy" value="393^Gluten-Free">
+								<label for="penut">Penut Free</label>
+								<input id="penut" type="checkbox" name="allergy" value="394^Peanut-Free">
+								<label for="seafood">Seafood Free</label>
+								<input id="seafood" type="checkbox" name="allergy" value="398^Seafood-Free">
+								<label for="sesame">Sesame Free</label>
+								<input id="sesame" type="checkbox" name="allergy" value="399^Sesame-Free">
+								<label for="soy">Soy Free</label>
+								<input id="soy" type="checkbox" name="allergy" value="400^Soy-Free">
+								<label for="wheat">Wheat Free</label>
+								<input id="wheat" type="checkbox" name="allergy" value="392^Wheat-Free">
+							</div>
+						</div>
+						<div class="flex-diets flex-all">
+							<div class="diets-title titles">
+								<h2>Diet</h2>
+							</div>
+							<div class="diets">
+								<input id="keto" type="radio" name="diet" value="406^Ketogenic">
+								<label for="keto">Ketogenic</label>
+								<input id="lacto" type="radio" name="diet" value="388^Lacto vegetarian">
+								<label for="lacto">Lacto vegetarian</label>
+								<input id="ovo" type="radio" name="diet" value="389^Ovo vegetarian">
+								<label for="ovo">Ovo vegetarian</label>
+								<input id="pescetarian" type="radio" name="diet" value="390^Pescetarian">
+								<label for="pescetarian">Pescetarian</label>
+								<input id="vegan" type="radio" name="diet" value="386^Vegan">
+								<label for="vegan">Vegan</label>
+								<input id="paleo" type="radio" name="diet" value="403^Paleo">
+								<label for="paleo">Paleo</label>
+								<input id="none" type="radio" name="diet" value="none">
+								<label for="none">None</label>
+							</div>
+						</div>
+						<div class="flex-duration flex-all">
+							<div class="duration-title titles">
+								<h2>Time</h2>
+							</div>
+							<div class="img-wrapper">
+	
+							</div>
+							<div class="duration">
+								<input id="15min" type="radio" name="duartion" value="900">
+								<label for="15min">15M</label>
+								<input id="30min" type="radio" name="duartion" value="1800">
+								<label for="30min">30M</label>
+								<input id="45min" type="radio" name="duartion" value="2700">
+								<label for="45min">45M</label>
+								<input id="1hr" type="radio" name="duartion" value="3600">
+								<label for="1hr">1H</label>
+								<input id="all" type="radio" name="duartion" value="none">
+								<label for="all">All</label>
+							</div>
+						</div>
+					</div>
+					<input id="submit" type="submit" value="Let's Get Cooking!" name="submitForMain" required="">
+				</form>
+			</div>
+		</div>
+	</header>
+	<!-- <div class="new-recipe">
+			<div class="wrapper">
+				<div class="two-sticks">
+					<div class="stick"></div>
+					<div class="stick"></div>
+				</div>
+				<div class="blue-board">
+					<div class="menu">
+						<span>M</span>
+						<span>E</span>
+						<span>N</span>
+						<span>U</span>
+					</div>
+					<div class="searched-box">
+	
+					</div>
+				</div>
+			</div>
+		</div> -->
+	<div class="recipe">
+		<div class="recipe-wrapper">
+			<h3 id="searched" class="searched-ingredient">
+				Searched Ingredients:
+			</h3>
+			<section id="recipes" class="recipes">
+	
+			</section>
+	
+		</div>
+	</div>
+	<footer>
+		<div class="wrapper">
+			<p>
+				ⓒ Clint Lee 2019
+			</p>
+			<p>
+				Yummly API
+			</p>
+		</div>
+	</footer>
+	<!-- Scripts -->
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+	 crossorigin="anonymous"></script>
+	<script src="js/detects.js"></script>
+	<script src="js/another-file.js"></script>
+	<script src="js/main.polyfills.js"></script>
+</body>
+</html>

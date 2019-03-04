@@ -1,0 +1,1065 @@
+/*!
+ * project-name v0.0.1
+ * A description for your project.
+ * (c) 2019 YOUR NAME
+ * MIT License
+ * http://link-to-your-git-repo.com
+ */
+
+/* line 1, src/sass/components/_setup.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
+  display: block;
+}
+
+/* line 1, src/sass/components/_setup.scss */
+audio, canvas, video {
+  display: inline-block;
+}
+
+/* line 1, src/sass/components/_setup.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/* line 1, src/sass/components/_setup.scss */
+[hidden] {
+  display: none;
+}
+
+/* line 1, src/sass/components/_setup.scss */
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* line 1, src/sass/components/_setup.scss */
+a:focus {
+  outline: thin dotted;
+}
+
+/* line 1, src/sass/components/_setup.scss */
+a:active, a:hover {
+  outline: 0;
+}
+
+/* line 1, src/sass/components/_setup.scss */
+h1 {
+  font-size: 2em;
+}
+
+/* line 1, src/sass/components/_setup.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/* line 1, src/sass/components/_setup.scss */
+b, strong {
+  font-weight: 700;
+}
+
+/* line 1, src/sass/components/_setup.scss */
+dfn {
+  font-style: italic;
+}
+
+/* line 1, src/sass/components/_setup.scss */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/* line 1, src/sass/components/_setup.scss */
+code, kbd, pre, samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+
+/* line 1, src/sass/components/_setup.scss */
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+/* line 1, src/sass/components/_setup.scss */
+q {
+  quotes: \201C \201D \2018 \2019;
+}
+
+/* line 1, src/sass/components/_setup.scss */
+small {
+  font-size: 80%;
+}
+
+/* line 1, src/sass/components/_setup.scss */
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 1, src/sass/components/_setup.scss */
+sup {
+  top: -.5em;
+}
+
+/* line 1, src/sass/components/_setup.scss */
+sub {
+  bottom: -.25em;
+}
+
+/* line 1, src/sass/components/_setup.scss */
+img {
+  border: 0;
+}
+
+/* line 1, src/sass/components/_setup.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* line 1, src/sass/components/_setup.scss */
+fieldset {
+  border: 1px solid silver;
+  margin: 0 2px;
+  padding: .35em .625em .75em;
+}
+
+/* line 1, src/sass/components/_setup.scss */
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+}
+
+/* line 1, src/sass/components/_setup.scss */
+button, input {
+  line-height: normal;
+}
+
+/* line 1, src/sass/components/_setup.scss */
+button, html input[type=button], input[type=reset], input[type=submit] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+/* line 1, src/sass/components/_setup.scss */
+button[disabled], input[disabled] {
+  cursor: default;
+}
+
+/* line 1, src/sass/components/_setup.scss */
+input[type=checkbox], input[type=radio] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+}
+
+/* line 1, src/sass/components/_setup.scss */
+input[type=search] {
+  -webkit-appearance: textfield;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+/* line 1, src/sass/components/_setup.scss */
+input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* line 1, src/sass/components/_setup.scss */
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+/* line 1, src/sass/components/_setup.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 1, src/sass/components/_setup.scss */
+body, figure {
+  margin: 0;
+}
+
+/* line 1, src/sass/components/_setup.scss */
+legend, button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 3, src/sass/components/_setup.scss */
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: '';
+  clear: both;
+  height: 0;
+}
+
+/* line 5, src/sass/components/_setup.scss */
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 7, src/sass/components/_setup.scss */
+.visuallyhidden:not(:focus):not(:active) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0);
+  overflow: hidden;
+}
+
+@-webkit-keyframes blink {
+  0% {
+    color: #7F7F7F;
+    border: 5px solid #7F7F7F;
+  }
+  1% {
+    color: #7F7F7F;
+    border: 5px solid white;
+    -webkit-box-shadow: inset 0 0 100px #fff,
+ inset 20px 0 80px #f0f,
+ inset -20px 0 80px #0ff,
+ inset 20px 0 300px #f0f,
+ inset -20px 0 300px #0ff,
+ 0 0 50px #fff,
+ -10px 0 80px #f0f,
+ 10px 0 80px #0ff;
+            box-shadow: inset 0 0 100px #fff,
+ inset 20px 0 80px #f0f,
+ inset -20px 0 80px #0ff,
+ inset 20px 0 300px #f0f,
+ inset -20px 0 300px #0ff,
+ 0 0 50px #fff,
+ -10px 0 80px #f0f,
+ 10px 0 80px #0ff;
+  }
+  5% {
+    color: #7F7F7F;
+    border: 5px solid white;
+    -webkit-box-shadow: inset 0 0 100px #fff,
+ inset 20px 0 80px #f0f,
+ inset -20px 0 80px #0ff,
+ inset 20px 0 300px #f0f,
+ inset -20px 0 300px #0ff,
+ 0 0 50px #fff,
+ -10px 0 80px #f0f,
+ 10px 0 80px #0ff;
+            box-shadow: inset 0 0 100px #fff,
+ inset 20px 0 80px #f0f,
+ inset -20px 0 80px #0ff,
+ inset 20px 0 300px #f0f,
+ inset -20px 0 300px #0ff,
+ 0 0 50px #fff,
+ -10px 0 80px #f0f,
+ 10px 0 80px #0ff;
+  }
+  6% {
+    color: #7F7F7F;
+    border: 5px solid #7F7F7F;
+    -webkit-box-shadow: inset 0 0 100px #fff, inset 20px 0 80px #080808, inset -20px 0 80px #001111, inset 20px 0 300px #080808, inset -20px 0 300px #001111, 0 0 50px #fff, -10px 0 80px #080808, 10px 0 80px #001111;
+            box-shadow: inset 0 0 100px #fff, inset 20px 0 80px #080808, inset -20px 0 80px #001111, inset 20px 0 300px #080808, inset -20px 0 300px #001111, 0 0 50px #fff, -10px 0 80px #080808, 10px 0 80px #001111;
+  }
+  7% {
+    color: white;
+    border: 5px solid #7F7F7F;
+    -webkit-box-shadow: inset 0 0 100px #fff, inset 20px 0 80px #080808, inset -20px 0 80px #001111, inset 20px 0 300px #080808, inset -20px 0 300px #001111, 0 0 50px #fff, -10px 0 80px #080808, 10px 0 80px #001111;
+            box-shadow: inset 0 0 100px #fff, inset 20px 0 80px #080808, inset -20px 0 80px #001111, inset 20px 0 300px #080808, inset -20px 0 300px #001111, 0 0 50px #fff, -10px 0 80px #080808, 10px 0 80px #001111;
+  }
+  25% {
+    color: white;
+    border: 5px solid white;
+    -webkit-box-shadow: inset 0 0 100px #fff,
+ inset 20px 0 80px #f0f,
+ inset -20px 0 80px #0ff,
+ inset 20px 0 300px #f0f,
+ inset -20px 0 300px #0ff,
+ 0 0 50px #fff,
+ -10px 0 80px #f0f,
+ 10px 0 80px #0ff;
+            box-shadow: inset 0 0 100px #fff,
+ inset 20px 0 80px #f0f,
+ inset -20px 0 80px #0ff,
+ inset 20px 0 300px #f0f,
+ inset -20px 0 300px #0ff,
+ 0 0 50px #fff,
+ -10px 0 80px #f0f,
+ 10px 0 80px #0ff;
+  }
+  26% {
+    color: #7F7F7F;
+    border: 5px solid #7F7F7F;
+    -webkit-box-shadow: inset 0 0 100px #fff, inset 20px 0 80px #080808, inset -20px 0 80px #001111, inset 20px 0 300px #080808, inset -20px 0 300px #001111, 0 0 50px #fff, -10px 0 80px #080808, 10px 0 80px #001111;
+            box-shadow: inset 0 0 100px #fff, inset 20px 0 80px #080808, inset -20px 0 80px #001111, inset 20px 0 300px #080808, inset -20px 0 300px #001111, 0 0 50px #fff, -10px 0 80px #080808, 10px 0 80px #001111;
+  }
+  27% {
+    color: white;
+    border: 5px solid white;
+    -webkit-box-shadow: inset 0 0 100px #fff,
+ inset 20px 0 80px #f0f,
+ inset -20px 0 80px #0ff,
+ inset 20px 0 300px #f0f,
+ inset -20px 0 300px #0ff,
+ 0 0 50px #fff,
+ -10px 0 80px #f0f,
+ 10px 0 80px #0ff;
+            box-shadow: inset 0 0 100px #fff,
+ inset 20px 0 80px #f0f,
+ inset -20px 0 80px #0ff,
+ inset 20px 0 300px #f0f,
+ inset -20px 0 300px #0ff,
+ 0 0 50px #fff,
+ -10px 0 80px #f0f,
+ 10px 0 80px #0ff;
+  }
+  55% {
+    color: white;
+    border: 5px solid white;
+  }
+  56% {
+    color: #7F7F7F;
+    border: 5px solid white;
+  }
+  57% {
+    color: white;
+    border: 5px solid white;
+  }
+  85% {
+    color: white;
+    border: 5px solid white;
+  }
+  86% {
+    color: #7F7F7F;
+    border: 5px solid #7F7F7F;
+  }
+  87% {
+    color: white;
+    border: 5px solid white;
+  }
+  99% {
+    color: white;
+    border: 5px solid white;
+  }
+  100% {
+    color: #7F7F7F;
+    border: 5px solid #7F7F7F;
+  }
+}
+
+@keyframes blink {
+  0% {
+    color: #7F7F7F;
+    border: 5px solid #7F7F7F;
+  }
+  1% {
+    color: #7F7F7F;
+    border: 5px solid white;
+    -webkit-box-shadow: inset 0 0 100px #fff,
+ inset 20px 0 80px #f0f,
+ inset -20px 0 80px #0ff,
+ inset 20px 0 300px #f0f,
+ inset -20px 0 300px #0ff,
+ 0 0 50px #fff,
+ -10px 0 80px #f0f,
+ 10px 0 80px #0ff;
+            box-shadow: inset 0 0 100px #fff,
+ inset 20px 0 80px #f0f,
+ inset -20px 0 80px #0ff,
+ inset 20px 0 300px #f0f,
+ inset -20px 0 300px #0ff,
+ 0 0 50px #fff,
+ -10px 0 80px #f0f,
+ 10px 0 80px #0ff;
+  }
+  5% {
+    color: #7F7F7F;
+    border: 5px solid white;
+    -webkit-box-shadow: inset 0 0 100px #fff,
+ inset 20px 0 80px #f0f,
+ inset -20px 0 80px #0ff,
+ inset 20px 0 300px #f0f,
+ inset -20px 0 300px #0ff,
+ 0 0 50px #fff,
+ -10px 0 80px #f0f,
+ 10px 0 80px #0ff;
+            box-shadow: inset 0 0 100px #fff,
+ inset 20px 0 80px #f0f,
+ inset -20px 0 80px #0ff,
+ inset 20px 0 300px #f0f,
+ inset -20px 0 300px #0ff,
+ 0 0 50px #fff,
+ -10px 0 80px #f0f,
+ 10px 0 80px #0ff;
+  }
+  6% {
+    color: #7F7F7F;
+    border: 5px solid #7F7F7F;
+    -webkit-box-shadow: inset 0 0 100px #fff, inset 20px 0 80px #080808, inset -20px 0 80px #001111, inset 20px 0 300px #080808, inset -20px 0 300px #001111, 0 0 50px #fff, -10px 0 80px #080808, 10px 0 80px #001111;
+            box-shadow: inset 0 0 100px #fff, inset 20px 0 80px #080808, inset -20px 0 80px #001111, inset 20px 0 300px #080808, inset -20px 0 300px #001111, 0 0 50px #fff, -10px 0 80px #080808, 10px 0 80px #001111;
+  }
+  7% {
+    color: white;
+    border: 5px solid #7F7F7F;
+    -webkit-box-shadow: inset 0 0 100px #fff, inset 20px 0 80px #080808, inset -20px 0 80px #001111, inset 20px 0 300px #080808, inset -20px 0 300px #001111, 0 0 50px #fff, -10px 0 80px #080808, 10px 0 80px #001111;
+            box-shadow: inset 0 0 100px #fff, inset 20px 0 80px #080808, inset -20px 0 80px #001111, inset 20px 0 300px #080808, inset -20px 0 300px #001111, 0 0 50px #fff, -10px 0 80px #080808, 10px 0 80px #001111;
+  }
+  25% {
+    color: white;
+    border: 5px solid white;
+    -webkit-box-shadow: inset 0 0 100px #fff,
+ inset 20px 0 80px #f0f,
+ inset -20px 0 80px #0ff,
+ inset 20px 0 300px #f0f,
+ inset -20px 0 300px #0ff,
+ 0 0 50px #fff,
+ -10px 0 80px #f0f,
+ 10px 0 80px #0ff;
+            box-shadow: inset 0 0 100px #fff,
+ inset 20px 0 80px #f0f,
+ inset -20px 0 80px #0ff,
+ inset 20px 0 300px #f0f,
+ inset -20px 0 300px #0ff,
+ 0 0 50px #fff,
+ -10px 0 80px #f0f,
+ 10px 0 80px #0ff;
+  }
+  26% {
+    color: #7F7F7F;
+    border: 5px solid #7F7F7F;
+    -webkit-box-shadow: inset 0 0 100px #fff, inset 20px 0 80px #080808, inset -20px 0 80px #001111, inset 20px 0 300px #080808, inset -20px 0 300px #001111, 0 0 50px #fff, -10px 0 80px #080808, 10px 0 80px #001111;
+            box-shadow: inset 0 0 100px #fff, inset 20px 0 80px #080808, inset -20px 0 80px #001111, inset 20px 0 300px #080808, inset -20px 0 300px #001111, 0 0 50px #fff, -10px 0 80px #080808, 10px 0 80px #001111;
+  }
+  27% {
+    color: white;
+    border: 5px solid white;
+    -webkit-box-shadow: inset 0 0 100px #fff,
+ inset 20px 0 80px #f0f,
+ inset -20px 0 80px #0ff,
+ inset 20px 0 300px #f0f,
+ inset -20px 0 300px #0ff,
+ 0 0 50px #fff,
+ -10px 0 80px #f0f,
+ 10px 0 80px #0ff;
+            box-shadow: inset 0 0 100px #fff,
+ inset 20px 0 80px #f0f,
+ inset -20px 0 80px #0ff,
+ inset 20px 0 300px #f0f,
+ inset -20px 0 300px #0ff,
+ 0 0 50px #fff,
+ -10px 0 80px #f0f,
+ 10px 0 80px #0ff;
+  }
+  55% {
+    color: white;
+    border: 5px solid white;
+  }
+  56% {
+    color: #7F7F7F;
+    border: 5px solid white;
+  }
+  57% {
+    color: white;
+    border: 5px solid white;
+  }
+  85% {
+    color: white;
+    border: 5px solid white;
+  }
+  86% {
+    color: #7F7F7F;
+    border: 5px solid #7F7F7F;
+  }
+  87% {
+    color: white;
+    border: 5px solid white;
+  }
+  99% {
+    color: white;
+    border: 5px solid white;
+  }
+  100% {
+    color: #7F7F7F;
+    border: 5px solid #7F7F7F;
+  }
+}
+
+@font-face {
+  font-family: 'frunch';
+  src: u../assets/Frunch.ttf);
+}
+
+/* line 11, src/sass/main.scss */
+html {
+  font-family: 'Merriweather', sans-serif;
+  font-size: 62.5%;
+}
+
+@media (max-width: 1000px) {
+  /* line 11, src/sass/main.scss */
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 700px) {
+  /* line 11, src/sass/main.scss */
+  html {
+    font-size: 40%;
+  }
+}
+
+/* line 25, src/sass/main.scss */
+img {
+  max-width: 100%;
+}
+
+/* line 29, src/sass/main.scss */
+li {
+  list-style: none;
+}
+
+/* line 33, src/sass/main.scss */
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+@media (max-width: 900px) {
+  /* line 33, src/sass/main.scss */
+  .wrapper {
+    width: 95%;
+  }
+}
+
+/* line 42, src/sass/main.scss */
+.header-wrapper {
+  width: 60%;
+  margin: 0 auto;
+}
+
+@media (max-width: 1600px) {
+  /* line 42, src/sass/main.scss */
+  .header-wrapper {
+    width: 80%;
+  }
+}
+
+@media (max-width: 750px) {
+  /* line 42, src/sass/main.scss */
+  .header-wrapper {
+    width: 90%;
+  }
+}
+
+/* line 56, src/sass/main.scss */
+.logo {
+  margin: 3rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* line 60, src/sass/main.scss */
+.logo h1 {
+  font-family: 'frunch', cursive;
+  font-size: 5rem;
+  text-align: center;
+  color: white;
+  margin: 0 auto;
+  padding: 20px 60px;
+  text-shadow: white 1px 0 10px;
+  border: 10px solid white;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.8);
+  -webkit-box-shadow: inset 0 0 100px #fff,
+ inset 20px 0 80px #f0f,
+ inset -20px 0 80px #0ff,
+ inset 20px 0 300px #f0f,
+ inset -20px 0 300px #0ff,
+ 0 0 50px #fff,
+ -10px 0 80px #f0f,
+ 10px 0 80px #0ff;
+          box-shadow: inset 0 0 100px #fff,
+ inset 20px 0 80px #f0f,
+ inset -20px 0 80px #0ff,
+ inset 20px 0 300px #f0f,
+ inset -20px 0 300px #0ff,
+ 0 0 50px #fff,
+ -10px 0 80px #f0f,
+ 10px 0 80px #0ff;
+  -webkit-animation: blink 5s infinite;
+          animation: blink 5s infinite;
+}
+
+@media (max-width: 1350px) {
+  /* line 60, src/sass/main.scss */
+  .logo h1 {
+    padding: 10px 30px;
+    font-size: 4rem;
+    border: 1px solid white;
+  }
+}
+
+/* line 89, src/sass/main.scss */
+.titles {
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+/* line 91, src/sass/main.scss */
+.titles h2 {
+  position: absolute;
+  left: 50%;
+  font-family: 'frunch', cursive;
+  font-size: 3rem;
+  color: #fff;
+  text-shadow: #106466 1px 0 10px;
+  margin: 10px 0;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+/* line 104, src/sass/main.scss */
+input[type=checkbox],
+input[type=radio] {
+  display: none;
+}
+
+/* line 109, src/sass/main.scss */
+.search-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: stretch;
+      -ms-flex-pack: stretch;
+          justify-content: stretch;
+}
+
+/* line 114, src/sass/main.scss */
+input[type=search] {
+  font-family: 'frunch', cursive;
+  text-transform: capitalize;
+  width: 50%;
+  font-size: 2rem;
+  padding: 10px 20px;
+  border: 6px double #EFA253;
+  background-color: #fffda0;
+  border-radius: 15px;
+  color: #EFA253;
+  text-shadow: 2px 2px 0px  #fff, -2px -2px 0px  #fff, 2px -2px 0px  #fff, -2px 2px 0px  #fff;
+  margin: auto;
+  display: block;
+}
+
+/* line 128, src/sass/main.scss */
+input[type=search]::-webkit-input-placeholder {
+  color: #EFA253;
+  text-shadow: 2px 2px 0px  #fff, -2px -2px 0px  #fff, 2px -2px 0px  #fff, -2px 2px 0px  #fff;
+}
+input[type=search]:-ms-input-placeholder {
+  color: #EFA253;
+  text-shadow: 2px 2px 0px  #fff, -2px -2px 0px  #fff, 2px -2px 0px  #fff, -2px 2px 0px  #fff;
+}
+input[type=search]::-ms-input-placeholder {
+  color: #EFA253;
+  text-shadow: 2px 2px 0px  #fff, -2px -2px 0px  #fff, 2px -2px 0px  #fff, -2px 2px 0px  #fff;
+}
+input[type=search]::placeholder {
+  color: #EFA253;
+  text-shadow: 2px 2px 0px  #fff, -2px -2px 0px  #fff, 2px -2px 0px  #fff, -2px 2px 0px  #fff;
+}
+
+/* line 133, src/sass/main.scss */
+input[type=submit] {
+  font-size: 2rem;
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  border: 6px double #EFA253;
+  background-color: #fffda0;
+  border-radius: 15px;
+  color: #EFA253;
+  text-shadow: 2px 2px 0px  #fff, -2px -2px 0px  #fff, 2px -2px 0px  #fff, -2px 2px 0px  #fff;
+  font-family: 'frunch', cursive;
+}
+
+/* line 144, src/sass/main.scss */
+.height {
+  height: auto;
+}
+
+/* line 149, src/sass/main.scss */
+header {
+  height: 96vh;
+  background-image: url(../assets/background6.jpg);
+  background-size: cover;
+  background-position: center;
+  -webkit-box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+          box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1rem;
+}
+
+@media (max-width: 350px) {
+  /* line 149, src/sass/main.scss */
+  header {
+    height: auto;
+  }
+}
+
+/* line 164, src/sass/main.scss */
+.active {
+  background-color: #D2E9E3;
+  border: 3px solid white;
+  color: black;
+}
+
+/* line 170, src/sass/main.scss */
+label {
+  font-size: 1.3rem;
+  padding: 0.3em 0.5em;
+  margin: 0.2em;
+  border: 3px solid transparent;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+/* line 180, src/sass/main.scss */
+label:hover {
+  background-color: #D2E9E3;
+  border: 3px solid white;
+  color: black;
+}
+
+/* line 186, src/sass/main.scss */
+label[for=search] {
+  display: none;
+}
+
+/* line 190, src/sass/main.scss */
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
+/* line 197, src/sass/main.scss */
+.flex-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 50px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+@media (max-width: 1000px) {
+  /* line 197, src/sass/main.scss */
+  .flex-wrapper {
+    padding-top: 20px;
+  }
+}
+
+/* line 213, src/sass/main.scss */
+.flex-all {
+  width: 100%;
+  position: relative;
+}
+
+/* line 220, src/sass/main.scss */
+.allergies, .diets, .duration {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  width: 80%;
+  color: white;
+  margin: 30px auto;
+  padding: 10px 15px;
+  background-color: rgba(210, 233, 227, 0.3);
+  border: 2px dashed #F7EEEE;
+}
+
+@media (max-width: 1600px) {
+  /* line 220, src/sass/main.scss */
+  .allergies, .diets, .duration {
+    width: 90%;
+  }
+}
+
+@media (max-width: 750px) {
+  /* line 220, src/sass/main.scss */
+  .allergies, .diets, .duration {
+    width: 100%;
+  }
+}
+
+/* line 241, src/sass/main.scss */
+.searched-ingredient {
+  text-transform: capitalize;
+  display: none;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-size: 3rem;
+  font-family: 'frunch', cursive;
+  margin: 0;
+  padding: 5px 10px;
+  border: 6px double #ff84a1;
+  background-color: #FFE8D5;
+  border-radius: 15px;
+  color: #fca4a4;
+  text-shadow: 2px 2px 0px  #fff, -2px -2px 0px  #fff, 2px -2px 0px  #fff, -2px 2px 0px  #fff;
+}
+
+/* line 256, src/sass/main.scss */
+.searched-each {
+  cursor: pointer;
+  margin: 0 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+/* line 263, src/sass/main.scss */
+.recipe {
+  background: #D2E9E3;
+  background-size: cover;
+  background-position: center;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 271, src/sass/main.scss */
+.recipe-wrapper {
+  width: 90%;
+  margin: 0 auto;
+  display: none;
+  padding: 40px 0;
+}
+
+/* line 287, src/sass/main.scss */
+.recipes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+/* line 292, src/sass/main.scss */
+.recipe-item {
+  background-color: #F7F9FB;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  width: 20%;
+  margin: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+          box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+}
+
+@media (max-width: 1350px) {
+  /* line 292, src/sass/main.scss */
+  .recipe-item {
+    width: 25%;
+  }
+}
+
+@media (max-width: 300px) {
+  /* line 292, src/sass/main.scss */
+  .recipe-item {
+    width: 90%;
+  }
+}
+
+/* line 315, src/sass/main.scss */
+.recipe-title {
+  text-align: center;
+  margin: 10px 0;
+  font-size: 2rem;
+  line-height: 1;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 6px double #ff84a1;
+  background-color: #FFE8D5;
+  border-radius: 15px;
+  color: #fca4a4;
+  text-shadow: 2px 2px 0px  #fff, -2px -2px 0px  #fff, 2px -2px 0px  #fff, -2px 2px 0px  #fff;
+  z-index: 100;
+}
+
+/* line 333, src/sass/main.scss */
+.recipe-unique {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(222, 207, 152, 0.8)), to(rgba(222, 207, 152, 0.9)));
+  background: linear-gradient(to bottom, rgba(222, 207, 152, 0.8), rgba(222, 207, 152, 0.9));
+  padding: 10px;
+  font-size: 2rem;
+  position: absolute;
+  text-align: center;
+  bottom: 70px;
+  color: #941B35;
+}
+
+/* line 344, src/sass/main.scss */
+.recipe-img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 250px;
+  height: 250px;
+  max-height: 250px;
+  z-index: 5;
+  margin: 30px auto;
+  display: block;
+}
+
+/* line 354, src/sass/main.scss */
+.recipe-img:hover {
+  -webkit-box-shadow: 0 0 1rem rgba(0, 0, 0, 0.6);
+          box-shadow: 0 0 1rem rgba(0, 0, 0, 0.6);
+}
+
+/* line 358, src/sass/main.scss */
+.ing-dur {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+/* line 363, src/sass/main.scss */
+.duration-each {
+  font-size: 1.2rem;
+  margin: 10px;
+  padding: 10px;
+  color: black;
+  border: 1px solid black;
+  font-weight: 400;
+}
+
+/* line 372, src/sass/main.scss */
+.ingredients-title {
+  font-size: 1.2rem;
+  margin: 10px;
+  padding: 10px;
+  font-weight: 400;
+  text-decoration: none;
+  border: 1px solid black;
+  color: black;
+  cursor: pointer;
+}
+
+/* line 385, src/sass/main.scss */
+.ingredients-title:hover {
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+}
+
+/* line 389, src/sass/main.scss */
+.ingredients-ul {
+  padding: 100px 20px 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  color: black;
+  background: rgba(255, 255, 255, 0.9);
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+/* line 403, src/sass/main.scss */
+.ingredients-each {
+  font-size: 1.6rem;
+  border: 1px solid black;
+  padding: 5px 10px;
+  margin: 5px;
+  display: inline-block;
+}
+
+/* line 475, src/sass/main.scss */
+footer {
+  background-color: lightslategray;
+  height: 4vh;
+}
+
+/* line 480, src/sass/main.scss */
+footer .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+/* line 488, src/sass/main.scss */
+footer p {
+  font-size: 1.6rem;
+  margin: 0;
+  color: white;
+}
