@@ -12,8 +12,8 @@ html {
         font-size: 50%;
     }
 
-    @media (max-width: 700px) {
-        font-size: 40%;
+    @media (max-width: 450px) {
+        // font-size: %;
     }
 }
 
@@ -92,6 +92,10 @@ li {
         text-shadow: #106466 1px 0 10px;
         margin: 10px 0;
         transform: translate(-50%, -50%);
+
+        @media (max-width: 1600px) {
+            top: -10px;
+        }
     }
 }
 
@@ -115,13 +119,21 @@ input[type=search] {
     // background-color: #FEC2AB;
     // border: 5px solid #BF4558;
     padding: 10px 20px;
-    @include custardShape();
+    // @include custardShape();
+    @include strawbShape();
+    
+    
     margin:  auto;
     display: block;
+
+    @media (max-width: 450px) {
+        width: 100%;
+        margin: 30px 0;
+    }
 }
 
 input[type=search]::placeholder {
-    color: #EFA253;
+    color: rgb(252, 164, 164);
     text-shadow: 2px 2px 0px  #fff, -2px -2px 0px  #fff, 2px -2px 0px  #fff, -2px 2px 0px  #fff;
 }
 
@@ -131,8 +143,15 @@ input[type=submit] {
     // width: 20%;
     margin: 20px auto;
     padding: 10px 20px;
-    @include custardShape();    
+    // @include custardShape();    
+    @include strawbShape();
+    
     font-family: 'Leckerli One', cursive;
+
+    @media (max-width: 450px) {
+        width: 100%;
+        margin: 30px 0;
+    }
     
 }
 
@@ -159,7 +178,7 @@ header {
 .active {
     background-color: #D2E9E3;
     border: 3px solid white;
-    color: black;
+    color: #605f51;
 }
 
 label {
@@ -168,14 +187,15 @@ label {
     margin: 0.2em ;
     border: 3px solid transparent;
     background-color: white;
-    color: black;
+    color: #605f51;
     cursor: pointer;
+    transition: all .5s;
 }
 
 label:hover {
     background-color: #D2E9E3;
     border: 3px solid white;
-    color: black;
+    color: #605f51;
 }
 
 label[for=search] {
@@ -196,7 +216,7 @@ form {
     justify-content: space-around;
     align-items: stretch;
 
-    @media (max-width: 1000px) {
+    @media (max-width: 1600px) {
         padding-top: 20px;
     }
 }
@@ -222,8 +242,11 @@ form {
     padding: 10px 15px;
     background-color: rgba(210, 233, 227, 0.3);
     border:2px dashed #F7EEEE;
+    border-radius: 10px;
 
     @media (max-width: 1600px) {
+        margin: 15px auto;
+        padding: 5px 10px;
         width: 90%;
     }
 
@@ -243,8 +266,8 @@ form {
     font-family: 'Leckerli One', cursive;
     margin: 0;
     padding: 5px 10px;
-    // @include custardShape();
-    @include strawbShape();
+    @include custardShape();
+    // @include strawbShape();
 
 }
 
@@ -270,15 +293,6 @@ form {
     padding: 40px 0;
 }
 
-// .recipe::after {
-//     background-image: url('/assets/tomato.png');
-//     background-size: 10px 20px;
-//     display: inline-block;
-//     width: 10px; 
-//     height: 20px;
-//     content:"";
-// }
-
 .recipes {
     display: flex;
     flex-wrap: wrap;
@@ -286,39 +300,45 @@ form {
 
 .recipe-item {
     background-color: #F7F9FB;
-    flex-grow: 1;
-    width: 20%;
+    flex: 1 0 21%;
     margin: 30px;
     display: flex;
     flex-direction: column;
     position: relative;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+    transition: all .5s;
 
-    @media (max-width: 1350px) {
-        width: 25%;
+    @media (max-width: 1000px) {
+        flex: 1 0 40%;
+        margin: 10px
+        
     }
 
-    @media (max-width: 750px) {
-        // width: 40%;
+    @media (max-width: 650px) {
+        flex: 0 0 60%;
+        margin: 10px auto;
     }
 
-    @media (max-width: 300px) {
-        width: 90%;
+    @media (max-width: 510px) {
+        flex: 0 0 80%;
+        margin: 10px auto;
     }
 }
 
+.recipe-item:hover {
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.6);
+}
+
 .recipe-title {
-    // display: inline-block;
     text-align: center;
     margin: 10px 0;
     font-size: 2rem;
     line-height: 1;
-    height: 60px;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
-
-    @include strawbShape();
+    color: #605f51;
     z-index: 100;    
     @media (max-width: 1000px) {
         // height: 40px;
@@ -333,6 +353,8 @@ form {
     text-align: center;
     bottom: 70px;
     color: #941B35;
+    z-index: 50;
+    // box-shadow: 0 0 2rem rgba(0, 0, 0, 0.6);    
 }
 
 
@@ -344,10 +366,11 @@ form {
     z-index: 5;
     margin: 30px auto;
     display: block;
+    transition: all .5s;
 }
 
-.recipe-img:hover  {
-    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.6);
+.recipe-img:hover {
+    transform: rotate(-10deg);
 }
 
 .ing-dur {
@@ -359,9 +382,16 @@ form {
     font-size: 1.2rem;
     margin: 10px;
     padding: 10px;
-    color: black;
-    border: 1px solid black;
+    color: #605f51;
+    border: 1px solid #605f51;
     font-weight: 400;
+    box-shadow: inset 0 0 0 0 #31302B;
+    transition: all ease 1s;
+}
+
+.duration-each:hover {
+    box-shadow: inset 100px 0 0 0 #414141;
+    color: #fff;
 }
 
 .ingredients-title {
@@ -372,100 +402,50 @@ form {
     padding: 10px;
     font-weight: 400;
     text-decoration: none;
-    border: 1px solid black;
-    color: black;
+    border: 1px solid #605f51;
+    color: #605f51;
     cursor: pointer;
+    box-shadow: inset 0 0 0 0 #31302B;
+    transition: all ease 0.8s;
 }
 
 .ingredients-title:hover {
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);    
+    box-shadow: inset 100px 0 0 0 #414141;
+    color: #fff;
 }
 
 .ingredients-ul {
-    padding: 100px 20px 0;
+    padding: 50px 20px 0;
     margin: 0;
     width: 100%;
     height: 100%;
     position: absolute;
-    color: black;
+    color: #605f51;
     background: rgba(255,255,255,0.9);
     font-size: 2rem;
-    cursor: pointer;
-    
+    z-index: 60;
+}
 
+.ingredients-ul::before {
+    cursor: pointer;
+    content: '\2715';
+    font-size: 3rem;
+    position: absolute;
+    right: 15px;
+    text-shadow: #605f51 1px 0 10px; 
+    // top: 20px;
+}
+
+.ingredients-ul::hover .ingredients-ul::before {
 }
 
 .ingredients-each {
     font-size: 1.6rem;
-    border: 1px solid black;
+    border: 1px solid #605f51;
     padding: 5px 10px;
     margin: 5px;
     display: inline-block;
 }
-
-
-
-
-
-
-
-
-// new-recipe
-
-// .new-recipe {
-//     background-color: #DBE0E3;
-// }
-
-// .two-sticks {
-//     display: flex;
-//     justify-content: center;
-// }
-
-// .stick {
-//     background: linear-gradient(to right, #B4ABA3, #877A6E, #AC9E8F, #B8AA9B, #CEC5B8);
-//     width: 10px;
-//     height: 100px;
-// }
-
-// .stick:first-child {
-//     margin-right: 300px;
-// }
-
-// .blue-board {
-//     width: 500px;
-//     height: 2000px;
-//     background-color: #2A3848;
-//     margin: 0 auto;
-//     position: relative;
-// }
-
-// .menu {
-//     width: 100%;
-//     color: white;
-//     padding-top: 50px;
-//     margin: 0 auto;
-//     display: flex;
-//     justify-content: space-around;
-//     padding: 50px 90px 0;
-
-// }
-
-// .menu > * {
-//     font-family: "Helvetica Narrow","Arial Narrow",Tahoma,Arial,Helvetica,sans-serif;
-//     font-size: 3rem;
-//     text-shadow: 15px 15px 30px rgba(0, 0, 0, 0.6);
-//     z-index: 15;
-// }
-
-// .searched-box {
-//     width: 450px;
-//     height: 200px;
-//     background-color: rgba(77, 92, 102, 0.7);
-//     position: absolute;
-//     top: 100px;
-//     left: 130px;
-//     box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.6);
-// }
 
 footer {
     background-color: lightslategray;

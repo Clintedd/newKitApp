@@ -223,6 +223,24 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   overflow: hidden;
 }
 
+@-webkit-keyframes leftToRight {
+  0% {
+    left: 100%;
+  }
+  100% {
+    left: 0%;
+  }
+}
+
+@keyframes leftToRight {
+  0% {
+    left: 100%;
+  }
+  100% {
+    left: 0%;
+  }
+}
+
 @-webkit-keyframes blink {
   0% {
     color: #7F7F7F;
@@ -231,14 +249,14 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   1% {
     color: #7F7F7F;
     border: 5px solid white;
-    -webkit-box-shadow: inset 0 0 100px #fff, inset 20px 0 80px #f0f, inset -20px 0 80px #0ff, inset 20px 0 300px #f0f, inset -20px 0 300px #0ff, 0 0 50px #fff, -10px 0 80px #f0f, 10px 0 80px #0ff;
-            box-shadow: inset 0 0 100px #fff, inset 20px 0 80px #f0f, inset -20px 0 80px #0ff, inset 20px 0 300px #f0f, inset -20px 0 300px #0ff, 0 0 50px #fff, -10px 0 80px #f0f, 10px 0 80px #0ff;
+    -webkit-box-shadow: inset 0 0 100px #fff, inset 20px 0 80px #f0f, inset -20px 0 80px #0ff, inset 20px 0 300px #f0f, inset -20px 0 300px #0ff, 0 0 50px #fff, -10px 0 80px #f0f, 10px 0 80px #0ff;
+            box-shadow: inset 0 0 100px #fff, inset 20px 0 80px #f0f, inset -20px 0 80px #0ff, inset 20px 0 300px #f0f, inset -20px 0 300px #0ff, 0 0 50px #fff, -10px 0 80px #f0f, 10px 0 80px #0ff;
   }
   5% {
     color: #7F7F7F;
     border: 5px solid white;
-    -webkit-box-shadow: inset 0 0 100px #fff, inset 20px 0 80px #f0f, inset -20px 0 80px #0ff, inset 20px 0 300px #f0f, inset -20px 0 300px #0ff, 0 0 50px #fff, -10px 0 80px #f0f, 10px 0 80px #0ff;
-            box-shadow: inset 0 0 100px #fff, inset 20px 0 80px #f0f, inset -20px 0 80px #0ff, inset 20px 0 300px #f0f, inset -20px 0 300px #0ff, 0 0 50px #fff, -10px 0 80px #f0f, 10px 0 80px #0ff;
+    -webkit-box-shadow: inset 0 0 100px #fff, inset 20px 0 80px #f0f, inset -20px 0 80px #0ff, inset 20px 0 300px #f0f, inset -20px 0 300px #0ff, 0 0 50px #fff, -10px 0 80px #f0f, 10px 0 80px #0ff;
+            box-shadow: inset 0 0 100px #fff, inset 20px 0 80px #f0f, inset -20px 0 80px #0ff, inset 20px 0 300px #f0f, inset -20px 0 300px #0ff, 0 0 50px #fff, -10px 0 80px #f0f, 10px 0 80px #0ff;
   }
   6% {
     color: #7F7F7F;
@@ -255,8 +273,8 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   25% {
     color: white;
     border: 5px solid white;
-    -webkit-box-shadow: inset 0 0 100px #fff, inset 20px 0 80px #f0f, inset -20px 0 80px #0ff, inset 20px 0 300px #f0f, inset -20px 0 300px #0ff, 0 0 50px #fff, -10px 0 80px #f0f, 10px 0 80px #0ff;
-            box-shadow: inset 0 0 100px #fff, inset 20px 0 80px #f0f, inset -20px 0 80px #0ff, inset 20px 0 300px #f0f, inset -20px 0 300px #0ff, 0 0 50px #fff, -10px 0 80px #f0f, 10px 0 80px #0ff;
+    -webkit-box-shadow: inset 0 0 100px #fff, inset 20px 0 80px #f0f, inset -20px 0 80px #0ff, inset 20px 0 300px #f0f, inset -20px 0 300px #0ff, 0 0 50px #fff, -10px 0 80px #f0f, 10px 0 80px #0ff;
+            box-shadow: inset 0 0 100px #fff, inset 20px 0 80px #f0f, inset -20px 0 80px #0ff, inset 20px 0 300px #f0f, inset -20px 0 300px #0ff, 0 0 50px #fff, -10px 0 80px #f0f, 10px 0 80px #0ff;
   }
   26% {
     color: #7F7F7F;
@@ -267,8 +285,8 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   27% {
     color: white;
     border: 5px solid white;
-    -webkit-box-shadow: inset 0 0 100px #fff, inset 20px 0 80px #f0f, inset -20px 0 80px #0ff, inset 20px 0 300px #f0f, inset -20px 0 300px #0ff, 0 0 50px #fff, -10px 0 80px #f0f, 10px 0 80px #0ff;
-            box-shadow: inset 0 0 100px #fff, inset 20px 0 80px #f0f, inset -20px 0 80px #0ff, inset 20px 0 300px #f0f, inset -20px 0 300px #0ff, 0 0 50px #fff, -10px 0 80px #f0f, 10px 0 80px #0ff;
+    -webkit-box-shadow: inset 0 0 100px #fff, inset 20px 0 80px #f0f, inset -20px 0 80px #0ff, inset 20px 0 300px #f0f, inset -20px 0 300px #0ff, 0 0 50px #fff, -10px 0 80px #f0f, 10px 0 80px #0ff;
+            box-shadow: inset 0 0 100px #fff, inset 20px 0 80px #f0f, inset -20px 0 80px #0ff, inset 20px 0 300px #f0f, inset -20px 0 300px #0ff, 0 0 50px #fff, -10px 0 80px #f0f, 10px 0 80px #0ff;
   }
   55% {
     color: white;
@@ -312,14 +330,14 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   1% {
     color: #7F7F7F;
     border: 5px solid white;
-    -webkit-box-shadow: inset 0 0 100px #fff, inset 20px 0 80px #f0f, inset -20px 0 80px #0ff, inset 20px 0 300px #f0f, inset -20px 0 300px #0ff, 0 0 50px #fff, -10px 0 80px #f0f, 10px 0 80px #0ff;
-            box-shadow: inset 0 0 100px #fff, inset 20px 0 80px #f0f, inset -20px 0 80px #0ff, inset 20px 0 300px #f0f, inset -20px 0 300px #0ff, 0 0 50px #fff, -10px 0 80px #f0f, 10px 0 80px #0ff;
+    -webkit-box-shadow: inset 0 0 100px #fff, inset 20px 0 80px #f0f, inset -20px 0 80px #0ff, inset 20px 0 300px #f0f, inset -20px 0 300px #0ff, 0 0 50px #fff, -10px 0 80px #f0f, 10px 0 80px #0ff;
+            box-shadow: inset 0 0 100px #fff, inset 20px 0 80px #f0f, inset -20px 0 80px #0ff, inset 20px 0 300px #f0f, inset -20px 0 300px #0ff, 0 0 50px #fff, -10px 0 80px #f0f, 10px 0 80px #0ff;
   }
   5% {
     color: #7F7F7F;
     border: 5px solid white;
-    -webkit-box-shadow: inset 0 0 100px #fff, inset 20px 0 80px #f0f, inset -20px 0 80px #0ff, inset 20px 0 300px #f0f, inset -20px 0 300px #0ff, 0 0 50px #fff, -10px 0 80px #f0f, 10px 0 80px #0ff;
-            box-shadow: inset 0 0 100px #fff, inset 20px 0 80px #f0f, inset -20px 0 80px #0ff, inset 20px 0 300px #f0f, inset -20px 0 300px #0ff, 0 0 50px #fff, -10px 0 80px #f0f, 10px 0 80px #0ff;
+    -webkit-box-shadow: inset 0 0 100px #fff, inset 20px 0 80px #f0f, inset -20px 0 80px #0ff, inset 20px 0 300px #f0f, inset -20px 0 300px #0ff, 0 0 50px #fff, -10px 0 80px #f0f, 10px 0 80px #0ff;
+            box-shadow: inset 0 0 100px #fff, inset 20px 0 80px #f0f, inset -20px 0 80px #0ff, inset 20px 0 300px #f0f, inset -20px 0 300px #0ff, 0 0 50px #fff, -10px 0 80px #f0f, 10px 0 80px #0ff;
   }
   6% {
     color: #7F7F7F;
@@ -336,8 +354,8 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   25% {
     color: white;
     border: 5px solid white;
-    -webkit-box-shadow: inset 0 0 100px #fff, inset 20px 0 80px #f0f, inset -20px 0 80px #0ff, inset 20px 0 300px #f0f, inset -20px 0 300px #0ff, 0 0 50px #fff, -10px 0 80px #f0f, 10px 0 80px #0ff;
-            box-shadow: inset 0 0 100px #fff, inset 20px 0 80px #f0f, inset -20px 0 80px #0ff, inset 20px 0 300px #f0f, inset -20px 0 300px #0ff, 0 0 50px #fff, -10px 0 80px #f0f, 10px 0 80px #0ff;
+    -webkit-box-shadow: inset 0 0 100px #fff, inset 20px 0 80px #f0f, inset -20px 0 80px #0ff, inset 20px 0 300px #f0f, inset -20px 0 300px #0ff, 0 0 50px #fff, -10px 0 80px #f0f, 10px 0 80px #0ff;
+            box-shadow: inset 0 0 100px #fff, inset 20px 0 80px #f0f, inset -20px 0 80px #0ff, inset 20px 0 300px #f0f, inset -20px 0 300px #0ff, 0 0 50px #fff, -10px 0 80px #f0f, 10px 0 80px #0ff;
   }
   26% {
     color: #7F7F7F;
@@ -348,8 +366,8 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   27% {
     color: white;
     border: 5px solid white;
-    -webkit-box-shadow: inset 0 0 100px #fff, inset 20px 0 80px #f0f, inset -20px 0 80px #0ff, inset 20px 0 300px #f0f, inset -20px 0 300px #0ff, 0 0 50px #fff, -10px 0 80px #f0f, 10px 0 80px #0ff;
-            box-shadow: inset 0 0 100px #fff, inset 20px 0 80px #f0f, inset -20px 0 80px #0ff, inset 20px 0 300px #f0f, inset -20px 0 300px #0ff, 0 0 50px #fff, -10px 0 80px #f0f, 10px 0 80px #0ff;
+    -webkit-box-shadow: inset 0 0 100px #fff, inset 20px 0 80px #f0f, inset -20px 0 80px #0ff, inset 20px 0 300px #f0f, inset -20px 0 300px #0ff, 0 0 50px #fff, -10px 0 80px #f0f, 10px 0 80px #0ff;
+            box-shadow: inset 0 0 100px #fff, inset 20px 0 80px #f0f, inset -20px 0 80px #0ff, inset 20px 0 300px #f0f, inset -20px 0 300px #0ff, 0 0 50px #fff, -10px 0 80px #f0f, 10px 0 80px #0ff;
   }
   55% {
     color: white;
@@ -395,13 +413,6 @@ html {
   /* line 6, src/sass/main.scss */
   html {
     font-size: 50%;
-  }
-}
-
-@media (max-width: 700px) {
-  /* line 6, src/sass/main.scss */
-  html {
-    font-size: 40%;
   }
 }
 
@@ -468,8 +479,8 @@ li {
   border: 10px solid white;
   border-radius: 15px;
   background-color: rgba(0, 0, 0, 0.8);
-  -webkit-box-shadow: inset 0 0 100px #fff, inset 20px 0 80px #f0f, inset -20px 0 80px #0ff, inset 20px 0 300px #f0f, inset -20px 0 300px #0ff, 0 0 50px #fff, -10px 0 80px #f0f, 10px 0 80px #0ff;
-          box-shadow: inset 0 0 100px #fff, inset 20px 0 80px #f0f, inset -20px 0 80px #0ff, inset 20px 0 300px #f0f, inset -20px 0 300px #0ff, 0 0 50px #fff, -10px 0 80px #f0f, 10px 0 80px #0ff;
+  -webkit-box-shadow: inset 0 0 100px #fff, inset 20px 0 80px #f0f, inset -20px 0 80px #0ff, inset 20px 0 300px #f0f, inset -20px 0 300px #0ff, 0 0 50px #fff, -10px 0 80px #f0f, 10px 0 80px #0ff;
+          box-shadow: inset 0 0 100px #fff, inset 20px 0 80px #f0f, inset -20px 0 80px #0ff, inset 20px 0 300px #f0f, inset -20px 0 300px #0ff, 0 0 50px #fff, -10px 0 80px #f0f, 10px 0 80px #0ff;
   -webkit-animation: blink 5s infinite;
           animation: blink 5s infinite;
 }
@@ -502,13 +513,20 @@ li {
           transform: translate(-50%, -50%);
 }
 
-/* line 99, src/sass/main.scss */
+@media (max-width: 1600px) {
+  /* line 86, src/sass/main.scss */
+  .titles h2 {
+    top: -10px;
+  }
+}
+
+/* line 103, src/sass/main.scss */
 input[type=checkbox],
 input[type=radio] {
   display: none;
 }
 
-/* line 104, src/sass/main.scss */
+/* line 108, src/sass/main.scss */
 .search-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -518,60 +536,74 @@ input[type=radio] {
           justify-content: stretch;
 }
 
-/* line 109, src/sass/main.scss */
+/* line 113, src/sass/main.scss */
 input[type=search] {
   font-family: 'Leckerli One', cursive;
   text-transform: capitalize;
   width: 50%;
   font-size: 2rem;
   padding: 10px 20px;
-  border: 6px double #EFA253;
-  background-color: #fffda0;
-  border-radius: 15px;
-  color: #EFA253;
+  border: 2px solid #ff84a1;
+  background-color: #FFE8D5;
+  color: #fca4a4;
   text-shadow: 2px 2px 0px  #fff, -2px -2px 0px  #fff, 2px -2px 0px  #fff, -2px 2px 0px  #fff;
   margin: auto;
   display: block;
 }
 
-/* line 123, src/sass/main.scss */
+@media (max-width: 450px) {
+  /* line 113, src/sass/main.scss */
+  input[type=search] {
+    width: 100%;
+    margin: 30px 0;
+  }
+}
+
+/* line 135, src/sass/main.scss */
 input[type=search]::-webkit-input-placeholder {
-  color: #EFA253;
+  color: #fca4a4;
   text-shadow: 2px 2px 0px  #fff, -2px -2px 0px  #fff, 2px -2px 0px  #fff, -2px 2px 0px  #fff;
 }
 input[type=search]:-ms-input-placeholder {
-  color: #EFA253;
+  color: #fca4a4;
   text-shadow: 2px 2px 0px  #fff, -2px -2px 0px  #fff, 2px -2px 0px  #fff, -2px 2px 0px  #fff;
 }
 input[type=search]::-ms-input-placeholder {
-  color: #EFA253;
+  color: #fca4a4;
   text-shadow: 2px 2px 0px  #fff, -2px -2px 0px  #fff, 2px -2px 0px  #fff, -2px 2px 0px  #fff;
 }
 input[type=search]::placeholder {
-  color: #EFA253;
+  color: #fca4a4;
   text-shadow: 2px 2px 0px  #fff, -2px -2px 0px  #fff, 2px -2px 0px  #fff, -2px 2px 0px  #fff;
 }
 
-/* line 128, src/sass/main.scss */
+/* line 140, src/sass/main.scss */
 input[type=submit] {
   font-size: 2rem;
   display: block;
   margin: 20px auto;
   padding: 10px 20px;
-  border: 6px double #EFA253;
-  background-color: #fffda0;
-  border-radius: 15px;
-  color: #EFA253;
+  border: 2px solid #ff84a1;
+  background-color: #FFE8D5;
+  color: #fca4a4;
   text-shadow: 2px 2px 0px  #fff, -2px -2px 0px  #fff, 2px -2px 0px  #fff, -2px 2px 0px  #fff;
   font-family: 'Leckerli One', cursive;
 }
 
-/* line 139, src/sass/main.scss */
+@media (max-width: 450px) {
+  /* line 140, src/sass/main.scss */
+  input[type=submit] {
+    width: 100%;
+    margin: 30px 0;
+  }
+}
+
+/* line 158, src/sass/main.scss */
 .height {
   height: auto;
 }
 
-/* line 144, src/sass/main.scss */
+/* line 163, src/sass/main.scss */
 header {
   height: 96vh;
   background-image: url(../assets/background6.jpg);
@@ -586,43 +618,45 @@ header {
 }
 
 @media (max-width: 350px) {
-  /* line 144, src/sass/main.scss */
+  /* line 163, src/sass/main.scss */
   header {
     height: auto;
   }
 }
 
-/* line 159, src/sass/main.scss */
+/* line 178, src/sass/main.scss */
 .active {
   background-color: #D2E9E3;
   border: 3px solid white;
-  color: black;
+  color: #605f51;
 }
 
-/* line 165, src/sass/main.scss */
+/* line 184, src/sass/main.scss */
 label {
   font-size: 1.3rem;
   padding: 0.3em 0.5em;
   margin: 0.2em;
   border: 3px solid transparent;
   background-color: white;
-  color: black;
+  color: #605f51;
   cursor: pointer;
+  -webkit-transition: all .5s;
+  transition: all .5s;
 }
 
-/* line 175, src/sass/main.scss */
+/* line 195, src/sass/main.scss */
 label:hover {
   background-color: #D2E9E3;
   border: 3px solid white;
-  color: black;
+  color: #605f51;
 }
 
-/* line 181, src/sass/main.scss */
+/* line 201, src/sass/main.scss */
 label[for=search] {
   display: none;
 }
 
-/* line 185, src/sass/main.scss */
+/* line 205, src/sass/main.scss */
 form {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -633,7 +667,7 @@ form {
           flex-flow: column;
 }
 
-/* line 192, src/sass/main.scss */
+/* line 212, src/sass/main.scss */
 .flex-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -650,20 +684,20 @@ form {
           align-items: stretch;
 }
 
-@media (max-width: 1000px) {
-  /* line 192, src/sass/main.scss */
+@media (max-width: 1600px) {
+  /* line 212, src/sass/main.scss */
   .flex-wrapper {
     padding-top: 20px;
   }
 }
 
-/* line 208, src/sass/main.scss */
+/* line 228, src/sass/main.scss */
 .flex-all {
   width: 100%;
   position: relative;
 }
 
-/* line 215, src/sass/main.scss */
+/* line 235, src/sass/main.scss */
 .allergies, .diets, .duration {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -678,23 +712,26 @@ form {
   padding: 10px 15px;
   background-color: rgba(210, 233, 227, 0.3);
   border: 2px dashed #F7EEEE;
+  border-radius: 10px;
 }
 
 @media (max-width: 1600px) {
-  /* line 215, src/sass/main.scss */
+  /* line 235, src/sass/main.scss */
   .allergies, .diets, .duration {
+    margin: 15px auto;
+    padding: 5px 10px;
     width: 90%;
   }
 }
 
 @media (max-width: 750px) {
-  /* line 215, src/sass/main.scss */
+  /* line 235, src/sass/main.scss */
   .allergies, .diets, .duration {
     width: 100%;
   }
 }
 
-/* line 236, src/sass/main.scss */
+/* line 259, src/sass/main.scss */
 .searched-ingredient {
   text-transform: capitalize;
   display: none;
@@ -709,14 +746,13 @@ form {
   font-family: 'Leckerli One', cursive;
   margin: 0;
   padding: 5px 10px;
-  border: 6px double #ff84a1;
-  background-color: #FFE8D5;
-  border-radius: 15px;
-  color: #fca4a4;
+  border: 2px solid #EFA253;
+  background-color: #fffda0;
+  color: #EFA253;
   text-shadow: 2px 2px 0px  #fff, -2px -2px 0px  #fff, 2px -2px 0px  #fff, -2px 2px 0px  #fff;
 }
 
-/* line 251, src/sass/main.scss */
+/* line 274, src/sass/main.scss */
 .searched-each {
   cursor: pointer;
   margin: 0 10px;
@@ -728,7 +764,7 @@ form {
           align-items: flex-end;
 }
 
-/* line 258, src/sass/main.scss */
+/* line 281, src/sass/main.scss */
 .recipe {
   background: #D2E9E3;
   background-size: cover;
@@ -737,7 +773,7 @@ form {
   margin: 0;
 }
 
-/* line 266, src/sass/main.scss */
+/* line 289, src/sass/main.scss */
 .recipe-wrapper {
   width: 90%;
   margin: 0 auto;
@@ -745,7 +781,7 @@ form {
   padding: 40px 0;
 }
 
-/* line 282, src/sass/main.scss */
+/* line 296, src/sass/main.scss */
 .recipes {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -754,13 +790,12 @@ form {
       flex-wrap: wrap;
 }
 
-/* line 287, src/sass/main.scss */
+/* line 301, src/sass/main.scss */
 .recipe-item {
   background-color: #F7F9FB;
   -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
-  width: 20%;
+      -ms-flex: 1 0 21%;
+          flex: 1 0 21%;
   margin: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -772,29 +807,53 @@ form {
   position: relative;
   -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
           box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+  -webkit-transition: all .5s;
+  transition: all .5s;
 }
 
-@media (max-width: 1350px) {
-  /* line 287, src/sass/main.scss */
+@media (max-width: 1000px) {
+  /* line 301, src/sass/main.scss */
   .recipe-item {
-    width: 25%;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 40%;
+            flex: 1 0 40%;
+    margin: 10px;
   }
 }
 
-@media (max-width: 300px) {
-  /* line 287, src/sass/main.scss */
+@media (max-width: 650px) {
+  /* line 301, src/sass/main.scss */
   .recipe-item {
-    width: 90%;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 60%;
+            flex: 0 0 60%;
+    margin: 10px auto;
   }
 }
 
-/* line 310, src/sass/main.scss */
+@media (max-width: 510px) {
+  /* line 301, src/sass/main.scss */
+  .recipe-item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 80%;
+            flex: 0 0 80%;
+    margin: 10px auto;
+  }
+}
+
+/* line 328, src/sass/main.scss */
+.recipe-item:hover {
+  -webkit-box-shadow: 0 0 2rem rgba(0, 0, 0, 0.6);
+          box-shadow: 0 0 2rem rgba(0, 0, 0, 0.6);
+}
+
+/* line 332, src/sass/main.scss */
 .recipe-title {
   text-align: center;
   margin: 10px 0;
   font-size: 2rem;
   line-height: 1;
-  height: 60px;
+  height: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -804,15 +863,11 @@ form {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border: 6px double #ff84a1;
-  background-color: #FFE8D5;
-  border-radius: 15px;
-  color: #fca4a4;
-  text-shadow: 2px 2px 0px  #fff, -2px -2px 0px  #fff, 2px -2px 0px  #fff, -2px 2px 0px  #fff;
+  color: #605f51;
   z-index: 100;
 }
 
-/* line 328, src/sass/main.scss */
+/* line 348, src/sass/main.scss */
 .recipe-unique {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(222, 207, 152, 0.8)), to(rgba(222, 207, 152, 0.9)));
   background: linear-gradient(to bottom, rgba(222, 207, 152, 0.8), rgba(222, 207, 152, 0.9));
@@ -822,9 +877,10 @@ form {
   text-align: center;
   bottom: 70px;
   color: #941B35;
+  z-index: 50;
 }
 
-/* line 339, src/sass/main.scss */
+/* line 361, src/sass/main.scss */
 .recipe-img {
   -o-object-fit: cover;
      object-fit: cover;
@@ -834,15 +890,17 @@ form {
   z-index: 5;
   margin: 30px auto;
   display: block;
+  -webkit-transition: all .5s;
+  transition: all .5s;
 }
 
-/* line 349, src/sass/main.scss */
+/* line 372, src/sass/main.scss */
 .recipe-img:hover {
-  -webkit-box-shadow: 0 0 1rem rgba(0, 0, 0, 0.6);
-          box-shadow: 0 0 1rem rgba(0, 0, 0, 0.6);
+  -webkit-transform: rotate(-10deg);
+          transform: rotate(-10deg);
 }
 
-/* line 353, src/sass/main.scss */
+/* line 376, src/sass/main.scss */
 .ing-dur {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -852,63 +910,89 @@ form {
           justify-content: space-between;
 }
 
-/* line 358, src/sass/main.scss */
+/* line 381, src/sass/main.scss */
 .duration-each {
   font-size: 1.2rem;
   margin: 10px;
   padding: 10px;
-  color: black;
-  border: 1px solid black;
+  color: #605f51;
+  border: 1px solid #605f51;
   font-weight: 400;
+  -webkit-box-shadow: inset 0 0 0 0 #31302B;
+          box-shadow: inset 0 0 0 0 #31302B;
+  -webkit-transition: all ease 1s;
+  transition: all ease 1s;
 }
 
-/* line 367, src/sass/main.scss */
+/* line 392, src/sass/main.scss */
+.duration-each:hover {
+  -webkit-box-shadow: inset 100px 0 0 0 #414141;
+          box-shadow: inset 100px 0 0 0 #414141;
+  color: #fff;
+}
+
+/* line 397, src/sass/main.scss */
 .ingredients-title {
   font-size: 1.2rem;
   margin: 10px;
   padding: 10px;
   font-weight: 400;
   text-decoration: none;
-  border: 1px solid black;
-  color: black;
+  border: 1px solid #605f51;
+  color: #605f51;
   cursor: pointer;
+  -webkit-box-shadow: inset 0 0 0 0 #31302B;
+          box-shadow: inset 0 0 0 0 #31302B;
+  -webkit-transition: all ease 0.8s;
+  transition: all ease 0.8s;
 }
 
-/* line 380, src/sass/main.scss */
+/* line 412, src/sass/main.scss */
 .ingredients-title:hover {
-  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
-          box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: inset 100px 0 0 0 #414141;
+          box-shadow: inset 100px 0 0 0 #414141;
+  color: #fff;
 }
 
-/* line 384, src/sass/main.scss */
+/* line 417, src/sass/main.scss */
 .ingredients-ul {
-  padding: 100px 20px 0;
+  padding: 50px 20px 0;
   margin: 0;
   width: 100%;
   height: 100%;
   position: absolute;
-  color: black;
+  color: #605f51;
   background: rgba(255, 255, 255, 0.9);
   font-size: 2rem;
-  cursor: pointer;
+  z-index: 60;
 }
 
-/* line 398, src/sass/main.scss */
+/* line 429, src/sass/main.scss */
+.ingredients-ul::before {
+  cursor: pointer;
+  content: '\2715';
+  font-size: 3rem;
+  position: absolute;
+  right: 15px;
+  text-shadow: #605f51 1px 0 10px;
+}
+
+/* line 442, src/sass/main.scss */
 .ingredients-each {
   font-size: 1.6rem;
-  border: 1px solid black;
+  border: 1px solid #605f51;
   padding: 5px 10px;
   margin: 5px;
   display: inline-block;
 }
 
-/* line 470, src/sass/main.scss */
+/* line 450, src/sass/main.scss */
 footer {
   background-color: lightslategray;
   height: 4vh;
 }
 
-/* line 475, src/sass/main.scss */
+/* line 455, src/sass/main.scss */
 footer .wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -926,7 +1010,7 @@ footer .wrapper {
   height: 100%;
 }
 
-/* line 483, src/sass/main.scss */
+/* line 463, src/sass/main.scss */
 footer p {
   font-size: 1.6rem;
   margin: 0;

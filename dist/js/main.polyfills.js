@@ -6,13 +6,6 @@
  * http://link-to-your-git-repo.com
  */
 
-/**
- * Element.matches() polyfill (simple version)
- * https://developer.mozilla.org/en-US/docs/Web/API/Element/matches#Polyfill
- */
-if (!Element.prototype.matches) {
-	Element.prototype.matches = Element.prototype.msMatchesSelector || Element.prototype.webkitMatchesSelector;
-}
 const app = {};
 let searchedAll = [];
 const allergySelected = [];
@@ -231,12 +224,10 @@ let clicked = false;
 app.indIngredients = function () {
 	$(document).on('click', '.ingredients-title', (function () {
 		const arrayOfRecip = ajaxResult.matches;
-		console.log(ajaxResult);
-		console.log('clicked');
 		if (clicked === false) {
 			const indexOf = $('.ingredients-title').index(this);
 			console.log(indexOf);
-			const ingredientsAll = arrayOfRecip[indexOf].ingredients;
+			const ingredientsAll = arrayOfRecip[indexOf].ingredients.slice(0, 20);
 			const ingredientsUL = $(`<ul class=ingredients-ul>`)
 			const ingredientsExp = $('<h4 class="ingredients-exp">').text('Ingredients:');
 			ingredientsUL.append(ingredientsExp);
@@ -280,3 +271,10 @@ app.init = function () {
 $(document).ready((function () {
 	app.init();
 }));
+/**
+ * Element.matches() polyfill (simple version)
+ * https://developer.mozilla.org/en-US/docs/Web/API/Element/matches#Polyfill
+ */
+if (!Element.prototype.matches) {
+	Element.prototype.matches = Element.prototype.msMatchesSelector || Element.prototype.webkitMatchesSelector;
+}

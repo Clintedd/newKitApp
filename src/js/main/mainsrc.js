@@ -216,12 +216,10 @@ let clicked = false;
 app.indIngredients = function () {
 	$(document).on('click', '.ingredients-title', function () {
 		const arrayOfRecip = ajaxResult.matches;
-		console.log(ajaxResult);
-		console.log('clicked');
 		if (clicked === false) {
 			const indexOf = $('.ingredients-title').index(this);
 			console.log(indexOf);
-			const ingredientsAll = arrayOfRecip[indexOf].ingredients;
+			const ingredientsAll = arrayOfRecip[indexOf].ingredients.slice(0, 20);
 			const ingredientsUL = $(`<ul class=ingredients-ul>`)
 			const ingredientsExp = $('<h4 class="ingredients-exp">').text('Ingredients:');
 			ingredientsUL.append(ingredientsExp);

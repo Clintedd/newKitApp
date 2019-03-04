@@ -20,6 +20,16 @@
     10px 0 80px #0ff;
 }
 
+@keyframes leftToRight {
+    0% {
+        left: 100%;
+    }
+
+    100% {
+        left: 0%;
+    }
+}
+
 @keyframes blink {
     0% {
         color: #7F7F7F;
@@ -95,18 +105,18 @@
 }
 
 @mixin custardShape {
-    border: 6px double #EFA253;
+    border: 2px solid #EFA253;
     background-color: rgb(255, 253, 160);
-    border-radius: 15px;
+    // border-radius: 15px;
     color: #EFA253;
     text-shadow: 2px 2px 0px  #fff, -2px -2px 0px  #fff, 2px -2px 0px  #fff, -2px 2px 0px  #fff;
     
 }
 
 @mixin strawbShape {
-    border: 6px double rgb(255, 132, 161);
+    border: 2px solid rgb(255, 132, 161);
     background-color: #FFE8D5;
-    border-radius: 15px;
+    // border-radius: 15px;
     color: rgb(252, 164, 164);
     text-shadow: 2px 2px 0px  #fff, -2px -2px 0px  #fff, 2px -2px 0px  #fff, -2px 2px 0px  #fff;
     
