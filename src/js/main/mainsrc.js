@@ -5,7 +5,6 @@ let dietSelected = 'none';
 let maxTimeSelected = 'none';
 let ajaxResult;
 let storedResult;
-console.log('hiiiii');
 
 // On form submit, call the getMainInfo function
 app.mainSearchEvent = function () {
