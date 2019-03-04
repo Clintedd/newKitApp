@@ -11,6 +11,7 @@ let searchedAll = [];
 const allergySelected = [];
 let dietSelected = 'none';
 let maxTimeSelected = 'none';
+let clicked = false;
 let ajaxResult;
 let storedResult;
 
@@ -143,6 +144,7 @@ app.showResult = function (ajaxResult) {
 	}))
 }
 
+// check if any of the labels are clicked, then change the class of the element to active
 app.checkboxToggle = function () {
 	$('.allergies label').click((function () {
 		$(this).toggleClass('active');
@@ -170,6 +172,8 @@ app.durationToggle = function (maxTimeSelected) {
 	}))
 }
 
+
+// if a searched ingredient is clicked, remove the ingredient from the array of searched ingredient and then search again with the remaining searched ingredients
 app.updateRecipe = function () {
 	$(document).on('click', '.searched-each', (function () {
 		const $itemToRemove = this.innerHTML;
@@ -195,6 +199,7 @@ app.updateRecipe = function () {
 	}))
 }
 
+// handles the height behaviour of header when called
 app.widthHandler = function () {
 	$(window).resize((function () {
 		if ($(window).width() < 350) {
@@ -218,9 +223,7 @@ app.widthHandlerSubmitted = function () {
 }
 
 
-
-let clicked = false;
-
+// When user clicks on 'ingredients', use the data from the searched array, and append each ingredients to an unordered list and append the ul to the recipe item
 app.indIngredients = function () {
 	$(document).on('click', '.ingredients-title', (function () {
 		const arrayOfRecip = ajaxResult.matches;
@@ -228,7 +231,7 @@ app.indIngredients = function () {
 			const indexOf = $('.ingredients-title').index(this);
 			console.log(indexOf);
 			const ingredientsAll = arrayOfRecip[indexOf].ingredients.slice(0, 20);
-			const ingredientsUL = $(`<ul class=ingredients-ul>`)
+			const ingredientsUL = $(`<ul class=ingredients-ul>`);
 			const ingredientsExp = $('<h4 class="ingredients-exp">').text('Ingredients:');
 			ingredientsUL.append(ingredientsExp);
 
@@ -237,7 +240,6 @@ app.indIngredients = function () {
 				ingredientsUL.append(ingredientsInd);
 			}
 			$(this.parentElement.parentElement).append(ingredientsUL);
-			// ingredientsUL.text('Ingredients in this recipe:')
 			clicked = true;
 		}
 		else if (clicked === true) {
@@ -268,6 +270,8 @@ app.init = function () {
 	app.indIngredients();
 }
 
+
+// document ready function
 $(document).ready((function () {
 	app.init();
 }));

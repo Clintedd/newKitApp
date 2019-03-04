@@ -121,3 +121,12 @@
     text-shadow: 2px 2px 0px  #fff, -2px -2px 0px  #fff, 2px -2px 0px  #fff, -2px 2px 0px  #fff;
     
 }
+
+@mixin strawbHoverShape {
+    border: 2px solid rgb(169, 132, 255);
+    background-color: #FFE8D5;
+    // border-radius: 15px;
+    color: rgb(209, 164, 252);
+    text-shadow: 2px 2px 0px  #fff, -2px -2px 0px  #fff, 2px -2px 0px  #fff, -2px 2px 0px  #fff;
+    
+}

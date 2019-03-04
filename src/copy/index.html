@@ -6,13 +6,14 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Kitchenia</title>
 	<link href="https://fonts.googleapis.com/css?family=Merriweather|Leckerli+One" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/main.min.css">
 </head>
 <body>
+
+	<!-- HEADER STARTS -->
 	<header>
 		<div class="header-wrapper">
 			<div class="logo">
-				<!-- <img src="assets/title.png" alt=""> -->
 				<h1>Kitchenia</h1>
 			</div>
 			<div class="form">
@@ -23,7 +24,7 @@
 						 onblur="this.placeholder = `Search recipe by ingredient`" required>
 					</div>
 					<div class="flex-wrapper">
-						<div class="flex-allergies flex-all">
+						<div class="flex-all">
 							<div class="allergies-title titles">
 								<h2>Allergy</h2>
 							</div>
@@ -46,7 +47,7 @@
 								<input id="wheat" type="checkbox" name="allergy" value="392^Wheat-Free">
 							</div>
 						</div>
-						<div class="flex-diets flex-all">
+						<div class="flex-all">
 							<div class="diets-title titles">
 								<h2>Diet</h2>
 							</div>
@@ -67,7 +68,7 @@
 								<label for="none">None</label>
 							</div>
 						</div>
-						<div class="flex-duration flex-all">
+						<div class="flex-all">
 							<div class="duration-title titles">
 								<h2>Time</h2>
 							</div>
@@ -93,25 +94,9 @@
 			</div>
 		</div>
 	</header>
-	<!-- <div class="new-recipe">
-			<div class="wrapper">
-				<div class="two-sticks">
-					<div class="stick"></div>
-					<div class="stick"></div>
-				</div>
-				<div class="blue-board">
-					<div class="menu">
-						<span>M</span>
-						<span>E</span>
-						<span>N</span>
-						<span>U</span>
-					</div>
-					<div class="searched-box">
-	
-					</div>
-				</div>
-			</div>
-		</div> -->
+	<!-- HEADER ENDS -->
+
+	<!-- RECIPE STARTS -->
 	<div class="recipe">
 		<div class="recipe-wrapper">
 			<h3 id="searched" class="searched-ingredient">
@@ -120,9 +105,11 @@
 			<section id="recipes" class="recipes">
 	
 			</section>
-	
 		</div>
 	</div>
+	<!-- RECIPE ENDS -->
+
+	<!-- FOOTER STARTS -->
 	<footer>
 		<div class="wrapper">
 			<p>
@@ -133,11 +120,10 @@
 			</p>
 		</div>
 	</footer>
+	<!-- FOOTER ENDS -->
 	<!-- Scripts -->
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
 	 crossorigin="anonymous"></script>
-	<script src="js/detects.js"></script>
-	<script src="js/another-file.js"></script>
-	<script src="js/main.polyfills.js"></script>
+	<script src="js/main.polyfills.min.js"></script>
 </body>
 </html>
