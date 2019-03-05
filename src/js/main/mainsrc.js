@@ -222,7 +222,7 @@ app.indIngredients = function () {
 		if (clicked === false) {
 			const indexOf = $('.ingredients-title').index(this);
 			console.log(indexOf);
-			const ingredientsAll = arrayOfRecip[indexOf].ingredients.slice(0, 20);
+			const ingredientsAll = arrayOfRecip[indexOf].ingredients.slice(0, 12);
 			const ingredientsUL = $(`<ul class=ingredients-ul>`);
 			const ingredientsExp = $('<h4 class="ingredients-exp">').text('Ingredients:');
 			ingredientsUL.append(ingredientsExp);

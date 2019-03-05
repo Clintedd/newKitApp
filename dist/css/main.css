@@ -418,7 +418,7 @@ html {
 
 /* line 15, src/sass/main.scss */
 img {
-  max-width: 100%;
+  width: 100%;
 }
 
 /* line 19, src/sass/main.scss */
@@ -470,6 +470,7 @@ label[for=search] {
 header {
   height: 96vh;
   background-image: url(../assets/background6.jpg);
+  background-attachment: fixed;
   background-size: cover;
   background-position: center;
   -webkit-box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
@@ -480,22 +481,36 @@ header {
   padding: 1rem;
 }
 
-@media (max-width: 350px) {
+@media (max-width: 400px) {
   /* line 56, src/sass/main.scss */
   header {
     height: auto;
   }
 }
 
-/* line 70, src/sass/main.scss */
+/* line 71, src/sass/main.scss */
 .logo {
-  margin: 3rem 0;
+  margin: 6rem 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-/* line 74, src/sass/main.scss */
+@media (max-width: 1350px) {
+  /* line 71, src/sass/main.scss */
+  .logo {
+    margin: 4rem 0;
+  }
+}
+
+@media (max-width: 1000px) {
+  /* line 71, src/sass/main.scss */
+  .logo {
+    margin: 3rem 0;
+  }
+}
+
+/* line 83, src/sass/main.scss */
 .logo h1 {
   font-family: 'Leckerli One', cursive;
   font-size: 5rem;
@@ -514,7 +529,7 @@ header {
 }
 
 @media (max-width: 1350px) {
-  /* line 74, src/sass/main.scss */
+  /* line 83, src/sass/main.scss */
   .logo h1 {
     padding: 10px 30px;
     font-size: 4rem;
@@ -522,7 +537,7 @@ header {
   }
 }
 
-/* line 104, src/sass/main.scss */
+/* line 113, src/sass/main.scss */
 form {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -533,7 +548,7 @@ form {
           flex-flow: column;
 }
 
-/* line 109, src/sass/main.scss */
+/* line 118, src/sass/main.scss */
 .search-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -543,7 +558,7 @@ form {
           justify-content: stretch;
 }
 
-/* line 114, src/sass/main.scss */
+/* line 123, src/sass/main.scss */
 input[type=search] {
   font-family: 'Leckerli One', cursive;
   text-transform: capitalize;
@@ -554,19 +569,19 @@ input[type=search] {
   background-color: #FFE8D5;
   color: #fca4a4;
   text-shadow: 2px 2px 0px  #fff, -2px -2px 0px  #fff, 2px -2px 0px  #fff, -2px 2px 0px  #fff;
-  margin: auto;
+  margin: 2rem auto;
   display: block;
 }
 
 @media (max-width: 450px) {
-  /* line 114, src/sass/main.scss */
+  /* line 123, src/sass/main.scss */
   input[type=search] {
     width: 100%;
     margin: 30px 0;
   }
 }
 
-/* line 132, src/sass/main.scss */
+/* line 141, src/sass/main.scss */
 input[type=search]:focus,
 input[type=search]:hover {
   border: 2px solid #a984ff;
@@ -575,7 +590,7 @@ input[type=search]:hover {
   text-shadow: 2px 2px 0px  #fff, -2px -2px 0px  #fff, 2px -2px 0px  #fff, -2px 2px 0px  #fff;
 }
 
-/* line 137, src/sass/main.scss */
+/* line 146, src/sass/main.scss */
 input[type=search]::-webkit-input-placeholder {
   color: #fca4a4;
   text-shadow: 2px 2px 0px  #fff, -2px -2px 0px  #fff, 2px -2px 0px  #fff, -2px 2px 0px  #fff;
@@ -593,7 +608,7 @@ input[type=search]::placeholder {
   text-shadow: 2px 2px 0px  #fff, -2px -2px 0px  #fff, 2px -2px 0px  #fff, -2px 2px 0px  #fff;
 }
 
-/* line 142, src/sass/main.scss */
+/* line 151, src/sass/main.scss */
 input[type=submit] {
   font-size: 2rem;
   display: block;
@@ -607,14 +622,14 @@ input[type=submit] {
 }
 
 @media (max-width: 450px) {
-  /* line 142, src/sass/main.scss */
+  /* line 151, src/sass/main.scss */
   input[type=submit] {
     width: 100%;
     margin: 30px 0;
   }
 }
 
-/* line 158, src/sass/main.scss */
+/* line 167, src/sass/main.scss */
 input[type=submit]:hover {
   border: 2px solid #a984ff;
   background-color: #FFE8D5;
@@ -622,7 +637,7 @@ input[type=submit]:hover {
   text-shadow: 2px 2px 0px  #fff, -2px -2px 0px  #fff, 2px -2px 0px  #fff, -2px 2px 0px  #fff;
 }
 
-/* line 163, src/sass/main.scss */
+/* line 172, src/sass/main.scss */
 .flex-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -640,19 +655,19 @@ input[type=submit]:hover {
 }
 
 @media (max-width: 1600px) {
-  /* line 163, src/sass/main.scss */
+  /* line 172, src/sass/main.scss */
   .flex-wrapper {
     padding-top: 20px;
   }
 }
 
-/* line 175, src/sass/main.scss */
+/* line 184, src/sass/main.scss */
 .titles {
   -ms-flex-item-align: center;
       align-self: center;
 }
 
-/* line 177, src/sass/main.scss */
+/* line 186, src/sass/main.scss */
 .titles h2 {
   position: absolute;
   left: 50%;
@@ -666,26 +681,26 @@ input[type=submit]:hover {
 }
 
 @media (max-width: 1600px) {
-  /* line 177, src/sass/main.scss */
+  /* line 186, src/sass/main.scss */
   .titles h2 {
     top: -10px;
   }
 }
 
-/* line 193, src/sass/main.scss */
+/* line 202, src/sass/main.scss */
 .flex-all {
   width: 100%;
   position: relative;
 }
 
-/* line 198, src/sass/main.scss */
+/* line 207, src/sass/main.scss */
 .active {
   background-color: #D2E9E3;
   border: 3px solid white;
   color: #605f51;
 }
 
-/* line 204, src/sass/main.scss */
+/* line 213, src/sass/main.scss */
 label {
   font-size: 1.3rem;
   padding: 0.3em 0.5em;
@@ -698,14 +713,14 @@ label {
   transition: all .5s;
 }
 
-/* line 215, src/sass/main.scss */
+/* line 224, src/sass/main.scss */
 label:hover {
   background-color: #D2E9E3;
   border: 3px solid white;
   color: #605f51;
 }
 
-/* line 221, src/sass/main.scss */
+/* line 230, src/sass/main.scss */
 .allergies, .diets, .duration {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -716,7 +731,7 @@ label:hover {
           flex-flow: row wrap;
   width: 80%;
   color: white;
-  margin: 30px auto;
+  margin: 40px auto;
   padding: 10px 15px;
   background-color: rgba(210, 233, 227, 0.3);
   border: 2px dashed #F7EEEE;
@@ -724,22 +739,22 @@ label:hover {
 }
 
 @media (max-width: 1600px) {
-  /* line 221, src/sass/main.scss */
+  /* line 230, src/sass/main.scss */
   .allergies, .diets, .duration {
-    margin: 15px auto;
+    margin: 30px auto;
     padding: 5px 10px;
     width: 90%;
   }
 }
 
 @media (max-width: 750px) {
-  /* line 221, src/sass/main.scss */
+  /* line 230, src/sass/main.scss */
   .allergies, .diets, .duration {
     width: 100%;
   }
 }
 
-/* line 243, src/sass/main.scss */
+/* line 252, src/sass/main.scss */
 .recipe {
   background: #D2E9E3;
   background-size: cover;
@@ -748,7 +763,7 @@ label:hover {
   margin: 0;
 }
 
-/* line 251, src/sass/main.scss */
+/* line 260, src/sass/main.scss */
 .recipe-wrapper {
   width: 90%;
   margin: 0 auto;
@@ -756,7 +771,7 @@ label:hover {
   padding: 40px 0;
 }
 
-/* line 258, src/sass/main.scss */
+/* line 267, src/sass/main.scss */
 .searched-ingredient {
   text-transform: capitalize;
   display: none;
@@ -775,19 +790,19 @@ label:hover {
   text-shadow: 2px 2px 0px  #fff, -2px -2px 0px  #fff, 2px -2px 0px  #fff, -2px 2px 0px  #fff;
 }
 
-/* line 272, src/sass/main.scss */
+/* line 281, src/sass/main.scss */
 .searched-each {
   cursor: pointer;
   margin: 0 10px;
   padding: 0 20px;
 }
 
-/* line 278, src/sass/main.scss */
+/* line 287, src/sass/main.scss */
 .searched-each:hover {
   background: rgba(0, 0, 0, 0.2);
 }
 
-/* line 282, src/sass/main.scss */
+/* line 291, src/sass/main.scss */
 .recipes {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -796,7 +811,7 @@ label:hover {
       flex-wrap: wrap;
 }
 
-/* line 287, src/sass/main.scss */
+/* line 296, src/sass/main.scss */
 .recipe-item {
   background-color: #F7F9FB;
   -webkit-box-flex: 1;
@@ -818,7 +833,7 @@ label:hover {
 }
 
 @media (max-width: 1000px) {
-  /* line 287, src/sass/main.scss */
+  /* line 296, src/sass/main.scss */
   .recipe-item {
     -webkit-box-flex: 1;
         -ms-flex: 1 0 40%;
@@ -828,7 +843,7 @@ label:hover {
 }
 
 @media (max-width: 650px) {
-  /* line 287, src/sass/main.scss */
+  /* line 296, src/sass/main.scss */
   .recipe-item {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 60%;
@@ -838,7 +853,7 @@ label:hover {
 }
 
 @media (max-width: 510px) {
-  /* line 287, src/sass/main.scss */
+  /* line 296, src/sass/main.scss */
   .recipe-item {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 80%;
@@ -847,13 +862,13 @@ label:hover {
   }
 }
 
-/* line 314, src/sass/main.scss */
+/* line 323, src/sass/main.scss */
 .recipe-item:hover {
   -webkit-box-shadow: 0 0 2rem rgba(0, 0, 0, 0.6);
           box-shadow: 0 0 2rem rgba(0, 0, 0, 0.6);
 }
 
-/* line 318, src/sass/main.scss */
+/* line 327, src/sass/main.scss */
 .recipe-title {
   text-align: center;
   margin: 10px 0;
@@ -873,7 +888,7 @@ label:hover {
   z-index: 100;
 }
 
-/* line 331, src/sass/main.scss */
+/* line 340, src/sass/main.scss */
 .recipe-unique {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(222, 207, 152, 0.8)), to(rgba(222, 207, 152, 0.9)));
   background: linear-gradient(to bottom, rgba(222, 207, 152, 0.8), rgba(222, 207, 152, 0.9));
@@ -886,7 +901,7 @@ label:hover {
   z-index: 50;
 }
 
-/* line 343, src/sass/main.scss */
+/* line 352, src/sass/main.scss */
 .recipe-img {
   -o-object-fit: cover;
      object-fit: cover;
@@ -900,13 +915,13 @@ label:hover {
   transition: all .5s;
 }
 
-/* line 354, src/sass/main.scss */
+/* line 363, src/sass/main.scss */
 .recipe-img:hover {
   -webkit-transform: rotate(-10deg);
           transform: rotate(-10deg);
 }
 
-/* line 358, src/sass/main.scss */
+/* line 367, src/sass/main.scss */
 .ing-dur {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -916,7 +931,7 @@ label:hover {
           justify-content: space-between;
 }
 
-/* line 363, src/sass/main.scss */
+/* line 372, src/sass/main.scss */
 .duration-each {
   font-size: 1.2rem;
   margin: 10px;
@@ -930,14 +945,14 @@ label:hover {
   transition: all ease 1s;
 }
 
-/* line 374, src/sass/main.scss */
+/* line 383, src/sass/main.scss */
 .duration-each:hover {
   -webkit-box-shadow: inset 100px 0 0 0 #414141;
           box-shadow: inset 100px 0 0 0 #414141;
   color: #fff;
 }
 
-/* line 379, src/sass/main.scss */
+/* line 388, src/sass/main.scss */
 .ingredients-title {
   font-size: 1.2rem;
   margin: 10px;
@@ -953,14 +968,14 @@ label:hover {
   transition: all ease 0.8s;
 }
 
-/* line 392, src/sass/main.scss */
+/* line 401, src/sass/main.scss */
 .ingredients-title:hover {
   -webkit-box-shadow: inset 100px 0 0 0 #414141;
           box-shadow: inset 100px 0 0 0 #414141;
   color: #fff;
 }
 
-/* line 397, src/sass/main.scss */
+/* line 406, src/sass/main.scss */
 .ingredients-ul {
   padding: 50px 20px 0;
   margin: 0;
@@ -973,7 +988,7 @@ label:hover {
   z-index: 60;
 }
 
-/* line 409, src/sass/main.scss */
+/* line 418, src/sass/main.scss */
 .ingredients-ul::before {
   cursor: pointer;
   content: '\2715';
@@ -983,7 +998,7 @@ label:hover {
   text-shadow: #605f51 1px 0 10px;
 }
 
-/* line 418, src/sass/main.scss */
+/* line 427, src/sass/main.scss */
 .ingredients-each {
   font-size: 1.6rem;
   border: 1px solid #605f51;
@@ -992,13 +1007,13 @@ label:hover {
   display: inline-block;
 }
 
-/* line 426, src/sass/main.scss */
+/* line 435, src/sass/main.scss */
 footer {
   background-color: lightslategray;
   height: 4vh;
 }
 
-/* line 431, src/sass/main.scss */
+/* line 440, src/sass/main.scss */
 footer .wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1016,7 +1031,7 @@ footer .wrapper {
   height: 100%;
 }
 
-/* line 439, src/sass/main.scss */
+/* line 448, src/sass/main.scss */
 footer p {
   font-size: 1.6rem;
   margin: 0;
